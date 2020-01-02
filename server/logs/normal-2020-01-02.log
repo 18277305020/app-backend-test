@@ -1,0 +1,455 @@
+2020-01-02T01:24:00.904Z - error: Error: Not Found
+    at E:\WebstormProjects\app-backend-test\server\config\error-config.js:10:19
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15 {
+  status: 404
+} filePath=E:\WebstormProjects\app-backend-test\server\config\error-config.js, lineNumber=16
+2020-01-02T01:28:00.801Z - error: register error: 字段 "name" 不存在
+    at Connection.parseE (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:604:13)
+    at Connection.parseMessage (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:403:19)
+    at Socket.<anonymous> (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:123:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 163,
+  severity: '错误',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '30',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'd:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c',
+  line: '3359',
+  routine: 'errorMissingColumn'
+} filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=70
+2020-01-02T01:29:12.990Z - error: register error: 字段 "name" 不存在
+    at Connection.parseE (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:604:13)
+    at Connection.parseMessage (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:403:19)
+    at Socket.<anonymous> (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:123:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 163,
+  severity: '错误',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '30',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'd:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c',
+  line: '3359',
+  routine: 'errorMissingColumn'
+} filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=63
+2020-01-02T01:30:26.317Z - error: register error: 字段 "name" 不存在
+    at Connection.parseE (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:604:13)
+    at Connection.parseMessage (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:403:19)
+    at Socket.<anonymous> (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:123:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 163,
+  severity: '错误',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '30',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'd:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c',
+  line: '3359',
+  routine: 'errorMissingColumn'
+} filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=64
+2020-01-02T01:35:37.731Z - error: register error: 字段 "name" 不存在
+    at Connection.parseE (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:604:13)
+    at Connection.parseMessage (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:403:19)
+    at Socket.<anonymous> (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:123:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 163,
+  severity: '错误',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '30',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'd:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c',
+  line: '3359',
+  routine: 'errorMissingColumn'
+} filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=77
+2020-01-02T01:36:58.042Z - error: register error: 字段 "sms" 不存在
+    at Connection.parseE (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:604:13)
+    at Connection.parseMessage (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:403:19)
+    at Socket.<anonymous> (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:123:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 162,
+  severity: '错误',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '85',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'd:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c',
+  line: '3359',
+  routine: 'errorMissingColumn'
+} filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=77
+2020-01-02T01:37:27.331Z - error: register error: 字段 "sms" 不存在
+    at Connection.parseE (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:604:13)
+    at Connection.parseMessage (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:403:19)
+    at Socket.<anonymous> (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:123:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 162,
+  severity: '错误',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '85',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'd:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c',
+  line: '3359',
+  routine: 'errorMissingColumn'
+} filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=77
+2020-01-02T01:37:52.091Z - error: register error: 字段 "sms" 不存在
+    at Connection.parseE (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:604:13)
+    at Connection.parseMessage (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:403:19)
+    at Socket.<anonymous> (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:123:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 162,
+  severity: '错误',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '85',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'd:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c',
+  line: '3359',
+  routine: 'errorMissingColumn'
+} filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=78
+2020-01-02T01:39:43.774Z - error: register error: 字段 "sms" 不存在
+    at Connection.parseE (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:604:13)
+    at Connection.parseMessage (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:403:19)
+    at Socket.<anonymous> (E:\WebstormProjects\app-backend-test\node_modules\pg\lib\connection.js:123:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 162,
+  severity: '错误',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '85',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'd:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c',
+  line: '3359',
+  routine: 'errorMissingColumn'
+} filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=78
+2020-01-02T02:23:45.582Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=111
+2020-01-02T02:23:47.791Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=111
+2020-01-02T02:23:59.424Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=111
+2020-01-02T02:24:24.334Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=112
+2020-01-02T02:25:52.170Z - error: uncaughtException: Unexpected token ',' date=Thu Jan 02 2020 10:25:52 GMT+0800 (GMT+08:00), pid=2180, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test\server.js], rss=75870208, heapTotal=59461632, heapUsed=34711848, external=1380685, loadavg=[0, 0, 0], uptime=262604, trace=[column=18, file=internal/modules/cjs/loader.js, function=Module._compile, line=895, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=46, file=E:\WebstormProjects\app-backend-test\server\routes\member.js, function=null, line=4, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false], stack=[E:\WebstormProjects\app-backend-test\server\controller\MemberController.js:98,         const {size, page, ...params} = req.body?req.body:{'10','1',{}},                                                                ^, , SyntaxError: Unexpected token ',',     at Module._compile (internal/modules/cjs/loader.js:895:18),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.<anonymous> (E:\WebstormProjects\app-backend-test\server\routes\member.js:4:46),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32)]
+2020-01-02T02:26:33.986Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=111
+2020-01-02T02:26:35.160Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=111
+2020-01-02T02:26:56.472Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=112
+2020-01-02T02:27:35.592Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=118
+2020-01-02T02:28:50.582Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=118
+2020-01-02T02:28:55.292Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=118
+2020-01-02T02:30:05.346Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=114
+2020-01-02T02:30:09.399Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=114
+2020-01-02T02:30:38.960Z - error: GetAllThanksgiving error The operator "undefined" is not permitted filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=118
+2020-01-02T02:37:03.171Z - error: Error: Not Found
+    at E:\WebstormProjects\app-backend-test\server\config\error-config.js:10:19
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15 {
+  status: 404
+} filePath=E:\WebstormProjects\app-backend-test\server\config\error-config.js, lineNumber=16
+2020-01-02T03:00:09.212Z - error: uncaughtException: Missing initializer in const declaration date=Thu Jan 02 2020 11:00:09 GMT+0800 (GMT+08:00), pid=13116, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test\server.js], rss=96993280, heapTotal=72331264, heapUsed=51701096, external=2306801, loadavg=[0, 0, 0], uptime=264661, trace=[column=18, file=internal/modules/cjs/loader.js, function=Module._compile, line=895, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=16, file=E:\WebstormProjects\app-backend-test\server\routes\member.js, function=null, line=7, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=28, file=E:\WebstormProjects\app-backend-test\server\config\route-config.js, function=Object.routeConfig.init, line=6, method=init, native=false, column=17, file=E:\WebstormProjects\app-backend-test\server\app.js, function=null, line=40, method=null, native=false, column=3, file=E:\WebstormProjects\app-backend-test\server\app.js, function=null, line=45, method=null, native=false], stack=[E:\WebstormProjects\app-backend-test\server\middleware\Authority.js:7,     console.log(result),     ^^^^^^^, , SyntaxError: Missing initializer in const declaration,     at Module._compile (internal/modules/cjs/loader.js:895:18),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.<anonymous> (E:\WebstormProjects\app-backend-test\server\routes\member.js:7:16),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.routeConfig.init (E:\WebstormProjects\app-backend-test\server\config\route-config.js:6:28),     at E:\WebstormProjects\app-backend-test\server\app.js:40:17,     at Object.<anonymous> (E:\WebstormProjects\app-backend-test\server\app.js:45:3)]
+2020-01-02T04:04:30.878Z - error: Error: Not Found
+    at E:\WebstormProjects\app-backend-test\server\config\error-config.js:10:19
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:165:47
+    at proxy (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:660:8)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12) {
+  status: 404
+} filePath=E:\WebstormProjects\app-backend-test\server\config\error-config.js, lineNumber=16
+2020-01-02T04:04:49.815Z - error: Error: Not Found
+    at E:\WebstormProjects\app-backend-test\server\config\error-config.js:10:19
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\connect-flash\lib\flash.js:21:5 {
+  status: 404
+} filePath=E:\WebstormProjects\app-backend-test\server\config\error-config.js, lineNumber=16
+2020-01-02T06:17:12.245Z - error: Error: Not Found
+    at E:\WebstormProjects\app-backend-test\server\config\error-config.js:10:19
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:165:47
+    at proxy (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:660:8)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12) {
+  status: 404
+} filePath=E:\WebstormProjects\app-backend-test\server\config\error-config.js, lineNumber=16
+2020-01-02T06:18:09.286Z - error: Error: Not Found
+    at E:\WebstormProjects\app-backend-test\server\config\error-config.js:10:19
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15 {
+  status: 404
+} filePath=E:\WebstormProjects\app-backend-test\server\config\error-config.js, lineNumber=16
+2020-01-02T06:19:17.867Z - error: Error: Not Found
+    at E:\WebstormProjects\app-backend-test\server\config\error-config.js:10:19
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15 {
+  status: 404
+} filePath=E:\WebstormProjects\app-backend-test\server\config\error-config.js, lineNumber=16
+2020-01-02T06:20:43.351Z - error: GetAllThanksgiving error Cannot set headers after they are sent to the client filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=112
+2020-01-02T06:20:59.990Z - error: GetAllThanksgiving error Cannot set headers after they are sent to the client filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=112
+2020-01-02T06:21:31.734Z - error: GetAllThanksgiving error Cannot set headers after they are sent to the client filePath=E:\WebstormProjects\app-backend-test\server\controller\MemberController.js, lineNumber=112
+2020-01-02T06:39:21.913Z - error: Error: Not Found
+    at E:\WebstormProjects\app-backend-test\server\config\error-config.js:10:19
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:165:47
+    at proxy (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:660:8)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12) {
+  status: 404
+} filePath=E:\WebstormProjects\app-backend-test\server\config\error-config.js, lineNumber=16
+2020-01-02T07:12:39.778Z - error: Error: Not Found
+    at E:\WebstormProjects\app-backend-test\server\config\error-config.js:10:19
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:165:47
+    at proxy (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:660:8)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12) {
+  status: 404
+} filePath=E:\WebstormProjects\app-backend-test\server\config\error-config.js, lineNumber=16
+2020-01-02T07:13:10.573Z - error: Error: Not Found
+    at E:\WebstormProjects\app-backend-test\server\config\error-config.js:10:19
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:165:47
+    at proxy (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:660:8)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12) {
+  status: 404
+} filePath=E:\WebstormProjects\app-backend-test\server\config\error-config.js, lineNumber=16
+2020-01-02T07:13:31.946Z - error: Error: Not Found
+    at E:\WebstormProjects\app-backend-test\server\config\error-config.js:10:19
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:275:10)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:635:15
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:165:47
+    at proxy (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:660:8)
+    at next (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:317:13)
+    at E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\WebstormProjects\app-backend-test\node_modules\express\lib\router\index.js:335:12) {
+  status: 404
+} filePath=E:\WebstormProjects\app-backend-test\server\config\error-config.js, lineNumber=16
+2020-01-02T07:30:48.214Z - error: uncaughtException: Could not find a valid build in the 'E:\WebstormProjects\app-backend-test\.next' directory! Try building your app with 'next build' before starting the server. date=Thu Jan 02 2020 15:30:48 GMT+0800 (GMT+08:00), pid=11176, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test\node_modules\pm2\lib\ProcessContainerFork.js], rss=39309312, heapTotal=19496960, heapUsed=10755240, external=1249884, loadavg=[0, 0, 0], uptime=280900, trace=[column=23, file=E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js, function=Server.readBuildId, line=529, method=readBuildId, native=false, column=29, file=E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js, function=new Server, line=48, method=null, native=false, column=133, file=E:\WebstormProjects\app-backend-test\node_modules\next\dist\server\next.js, function=createServer, line=2, method=null, native=false, column=18, file=E:\WebstormProjects\app-backend-test\server\app.js, function=null, line=30, method=null, native=false, column=3, file=E:\WebstormProjects\app-backend-test\server\app.js, function=null, line=45, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false], stack=[Error: Could not find a valid build in the 'E:\WebstormProjects\app-backend-test\.next' directory! Try building your app with 'next build' before starting the server.,     at Server.readBuildId (E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js:529:23),     at new Server (E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js:48:29),     at createServer (E:\WebstormProjects\app-backend-test\node_modules\next\dist\server\next.js:2:133),     at E:\WebstormProjects\app-backend-test\server\app.js:30:18,     at Object.<anonymous> (E:\WebstormProjects\app-backend-test\server\app.js:45:3),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19)]
+2020-01-02T07:30:51.214Z - error: uncaughtException: Could not find a valid build in the 'E:\WebstormProjects\app-backend-test\.next' directory! Try building your app with 'next build' before starting the server. date=Thu Jan 02 2020 15:30:51 GMT+0800 (GMT+08:00), pid=14012, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test\node_modules\pm2\lib\ProcessContainerFork.js], rss=39460864, heapTotal=19234816, heapUsed=10610824, external=1249884, loadavg=[0, 0, 0], uptime=280903, trace=[column=23, file=E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js, function=Server.readBuildId, line=529, method=readBuildId, native=false, column=29, file=E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js, function=new Server, line=48, method=null, native=false, column=133, file=E:\WebstormProjects\app-backend-test\node_modules\next\dist\server\next.js, function=createServer, line=2, method=null, native=false, column=18, file=E:\WebstormProjects\app-backend-test\server\app.js, function=null, line=30, method=null, native=false, column=3, file=E:\WebstormProjects\app-backend-test\server\app.js, function=null, line=45, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false], stack=[Error: Could not find a valid build in the 'E:\WebstormProjects\app-backend-test\.next' directory! Try building your app with 'next build' before starting the server.,     at Server.readBuildId (E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js:529:23),     at new Server (E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js:48:29),     at createServer (E:\WebstormProjects\app-backend-test\node_modules\next\dist\server\next.js:2:133),     at E:\WebstormProjects\app-backend-test\server\app.js:30:18,     at Object.<anonymous> (E:\WebstormProjects\app-backend-test\server\app.js:45:3),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19)]
+2020-01-02T07:30:54.332Z - error: uncaughtException: Could not find a valid build in the 'E:\WebstormProjects\app-backend-test\.next' directory! Try building your app with 'next build' before starting the server. date=Thu Jan 02 2020 15:30:54 GMT+0800 (GMT+08:00), pid=13776, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test\node_modules\pm2\lib\ProcessContainerFork.js], rss=39510016, heapTotal=19496960, heapUsed=10677328, external=1249884, loadavg=[0, 0, 0], uptime=280906, trace=[column=23, file=E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js, function=Server.readBuildId, line=529, method=readBuildId, native=false, column=29, file=E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js, function=new Server, line=48, method=null, native=false, column=133, file=E:\WebstormProjects\app-backend-test\node_modules\next\dist\server\next.js, function=createServer, line=2, method=null, native=false, column=18, file=E:\WebstormProjects\app-backend-test\server\app.js, function=null, line=30, method=null, native=false, column=3, file=E:\WebstormProjects\app-backend-test\server\app.js, function=null, line=45, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false], stack=[Error: Could not find a valid build in the 'E:\WebstormProjects\app-backend-test\.next' directory! Try building your app with 'next build' before starting the server.,     at Server.readBuildId (E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js:529:23),     at new Server (E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js:48:29),     at createServer (E:\WebstormProjects\app-backend-test\node_modules\next\dist\server\next.js:2:133),     at E:\WebstormProjects\app-backend-test\server\app.js:30:18,     at Object.<anonymous> (E:\WebstormProjects\app-backend-test\server\app.js:45:3),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19)]
+2020-01-02T07:30:57.444Z - error: uncaughtException: Could not find a valid build in the 'E:\WebstormProjects\app-backend-test\.next' directory! Try building your app with 'next build' before starting the server. date=Thu Jan 02 2020 15:30:57 GMT+0800 (GMT+08:00), pid=10004, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test\node_modules\pm2\lib\ProcessContainerFork.js], rss=39428096, heapTotal=19234816, heapUsed=10617432, external=1249884, loadavg=[0, 0, 0], uptime=280909, trace=[column=23, file=E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js, function=Server.readBuildId, line=529, method=readBuildId, native=false, column=29, file=E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js, function=new Server, line=48, method=null, native=false, column=133, file=E:\WebstormProjects\app-backend-test\node_modules\next\dist\server\next.js, function=createServer, line=2, method=null, native=false, column=18, file=E:\WebstormProjects\app-backend-test\server\app.js, function=null, line=30, method=null, native=false, column=3, file=E:\WebstormProjects\app-backend-test\server\app.js, function=null, line=45, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false], stack=[Error: Could not find a valid build in the 'E:\WebstormProjects\app-backend-test\.next' directory! Try building your app with 'next build' before starting the server.,     at Server.readBuildId (E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js:529:23),     at new Server (E:\WebstormProjects\app-backend-test\node_modules\next\dist\next-server\server\next-server.js:48:29),     at createServer (E:\WebstormProjects\app-backend-test\node_modules\next\dist\server\next.js:2:133),     at E:\WebstormProjects\app-backend-test\server\app.js:30:18,     at Object.<anonymous> (E:\WebstormProjects\app-backend-test\server\app.js:45:3),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19)]
