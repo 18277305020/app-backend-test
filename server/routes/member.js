@@ -20,11 +20,5 @@ router.get("/remove", ensureAuthenticated, role, del)
 
 router.post("/update", ensureAuthenticated, role, update)
 
-router.get("/xxx", (req, res) => {
-    return res.status(200).json({
-        message: "121131232123",
-    });
-})
-
 
 module.exports = router;
