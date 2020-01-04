@@ -18,7 +18,7 @@ const create = async (req, res) => {
     delete params.sms
 
     try {
-        const result = await findMember(params);
+        const result = await findMember({phone: params.phone});
         if (result.length > 0) {
             return res.status(200).json({
                 message: '用户已注册',
