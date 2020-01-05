@@ -97,5 +97,11 @@ app.prepare()
         expressServer.listen(port, err => {
             if (err) throw err;
             console.log('> Ready on localhost:3001');
+
+            //设置计时器
+            // let time = setInterval(() => {
+            //     console.log('1')
+            // }, 1000 * 60)
+
         });
     });

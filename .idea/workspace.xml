@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06e18bb1-16a7-43fc-8fa8-827ce53be23c" name="Default Changelist" comment="修复bug">
+    <list default="true" id="06e18bb1-16a7-43fc-8fa8-827ce53be23c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controller/MemberController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/MemberController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/migrations/20191225220546_init_member.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/migrations/20191225220546_init_member.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/Roles.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/Roles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/member.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/member.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,12 @@
       <workItem from="1578016135046" duration="896000" />
       <workItem from="1578017700561" duration="8431000" />
       <workItem from="1578043717924" duration="12000" />
-      <workItem from="1578101105306" duration="106000" />
+      <workItem from="1578101105306" duration="767000" />
+      <workItem from="1578101909333" duration="305000" />
+      <workItem from="1578102266588" duration="33000" />
+      <workItem from="1578104835439" duration="937000" />
+      <workItem from="1578107373828" duration="3053000" />
+      <workItem from="1578224226593" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1577951327910</created>
@@ -110,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578039014407</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修复 注册 bug">
+      <created>1578101232008</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578101232008</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,21 +134,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="add .next" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .next" />
+    <MESSAGE value="修复 注册 bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复 注册 bug" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="760" y="30" key="CommitChangelistDialog2" timestamp="1578101211187">
+    <state x="760" y="30" key="CommitChangelistDialog2" timestamp="1578101231242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="760" y="30" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578101211187" />
-    <state x="911" y="275" key="FileChooserDialogImpl" timestamp="1578043728080">
+    <state x="760" y="30" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578101231242" />
+    <state x="911" y="275" key="FileChooserDialogImpl" timestamp="1578119095335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="911" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578043728080" />
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578039017249">
+    <state x="911" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578119095335" />
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578101233351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578039017249" />
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578101233351" />
     <state x="625" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578016148226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

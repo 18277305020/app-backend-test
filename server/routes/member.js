@@ -11,14 +11,11 @@ router.get('/sms/send', sendSMSCode)
 router.post("/login", resolveSMSCode, login)
 
 router.post("/list", ensureAuthenticated, role, getAll)
-//router.post("/list", getAll)
 
 router.post("/create", resolveSMSCode, create)
 
 router.get("/remove", ensureAuthenticated, role, del)
-//router.get("/remove", del)
 
 router.post("/update", ensureAuthenticated, role, update)
-
 
 module.exports = router;
