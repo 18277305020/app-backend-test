@@ -42,6 +42,34 @@ const create = async (req, res) => {
     }
 }
 
+//添加（admin）
+const add = async (req, res) => {
+    const params = {...req.body}
+    try {
+        const result = await findMember({phone: params.phone});
+        if (result.length > 0) {
+            return res.status(200).json({
+                message: '用户已注册',
+                code: 1
+            });
+        }
+        const data = await createMember(params);
+
+        return res.status(200).json({
+            data: {
+                data
+            },
+            code: 0,
+            message: "添加成功"
+        })
+    } catch (e) {
+        Logger.error('register', e);
+        return res.status(500).json({
+            message: 'Internal server error.'
+        });
+    }
+}
+
 //登录
 const login = async (req, res) => {
     const params = {...req.body}
@@ -164,4 +192,5 @@ module.exports = {
     update,
     getAll,
     del,
+    add
 };
