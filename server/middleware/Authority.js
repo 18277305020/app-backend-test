@@ -2,8 +2,9 @@ const roles = require('../lib/Roles')
 const {findMember} = require("../model/MemberModel");
 
 const role = async (req, res, next) => {
-    const result = await findMember({mid: req.headers.user_id.id})
-    const phone = result[0].phone
+    //const result = await findMember({mid: req.headers.user_id.id})
+    //const phone = result[0].phone
+    const phone = req.headers.user_id.phone
     if (roles.supperAdmin.indexOf(phone) > -1) {
         return next()
     } else {
@@ -13,5 +14,6 @@ const role = async (req, res, next) => {
         });
     }
 }
+
 
 module.exports = {role}

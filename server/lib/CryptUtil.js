@@ -12,7 +12,8 @@ const bcrypt = require("bcryptjs");
 function encodeToken(member) {
     const payload = {
         exp: moment().add(14, "days").unix(),
-        id: member.mid,
+        //id: member.mid,
+        phone: member.phone
     };
     return jwt.encode(payload, process.env.TOKEN_SECRET, null, null);
 }

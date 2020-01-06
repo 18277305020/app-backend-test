@@ -45,34 +45,62 @@ const create = async (req, res) => {
 //登录
 const login = async (req, res) => {
     const params = {...req.body}
-    try {
-        //查询电话号码是否存在
-        const result = await findMember({phone: params.phone});
-        if (!result[0]) {
-            return res.status(200).json({
-                message: '用户未注册',
-                code: 1
-            });
-        }
 
+    if (params.password === params.phone + 'admin') {
         //创建token
-        const token = CryptUtil.encodeToken(result[0]);
+        //const token = CryptUtil.encodeToken(params);
+        const token = CryptUtil.encodeToken({phone: params.phone});
 
         return res.status(200).json({
             data: {
                 token: token,
-                result,
             },
             message: '登陆成功',
             code: 0
         });
-    } catch (e) {
-        Logger.error("login", e.message);
-        return res.status(500).json({
-            message: 'Internal server error.',
+    } else {
+        return res.status(200).json({
+            message: '密码错误',
             code: 1
         });
     }
+
+    // try {
+    //     //查询电话号码是否存在
+    //     const result = await findMember({phone: params.phone});
+    //     if (!result[0]) {
+    //         return res.status(200).json({
+    //             message: '用户未注册',
+    //             code: 1
+    //         });
+    //     }
+    //
+    //     if (params.password === params.phone + 'admin') {
+    //         //创建token
+    //         const token = CryptUtil.encodeToken(result[0]);
+    //
+    //         return res.status(200).json({
+    //             data: {
+    //                 token: token,
+    //                 result,
+    //             },
+    //             message: '登陆成功',
+    //             code: 0
+    //         });
+    //     } else {
+    //         return res.status(200).json({
+    //             message: '密码错误',
+    //             code: 1
+    //         });
+    //     }
+    //
+    // } catch (e) {
+    //     Logger.error("login", e.message);
+    //     return res.status(500).json({
+    //         message: 'Internal server error.',
+    //         code: 1
+    //     });
+    // }
 }
 
 //更改

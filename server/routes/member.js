@@ -8,7 +8,9 @@ const {role} = require('../middleware/Authority')
 
 router.get('/sms/send', sendSMSCode)
 
-router.post("/login", resolveSMSCode, login)
+//验证短信
+//router.post("/login", resolveSMSCode, login)
+router.post("/login", login)
 
 router.post("/list", ensureAuthenticated, role, getAll)
 

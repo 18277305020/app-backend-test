@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="06e18bb1-16a7-43fc-8fa8-827ce53be23c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/migrations/20191225220546_init_member.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/migrations/20191225220546_init_member.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controller/MemberController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/MemberController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/CryptUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/CryptUtil.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/lib/Roles.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/lib/Roles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middleware/Authority.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/Authority.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/member.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/member.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kaleidoscope-pc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,7 +68,7 @@
       <workItem from="1578102266588" duration="33000" />
       <workItem from="1578104835439" duration="937000" />
       <workItem from="1578107373828" duration="3053000" />
-      <workItem from="1578224226593" duration="32000" />
+      <workItem from="1578224226593" duration="5050000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1577951327910</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578101232008</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加权限（13881963366）">
+      <created>1578224299007</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578224299007</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,24 +143,29 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="add .next" />
     <MESSAGE value="修复 注册 bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复 注册 bug" />
+    <MESSAGE value="添加权限（13881963366）" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加权限（13881963366）" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="760" y="30" key="CommitChangelistDialog2" timestamp="1578101231242">
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1578224298030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="760" y="30" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578101231242" />
-    <state x="911" y="275" key="FileChooserDialogImpl" timestamp="1578119095335">
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578224298030" />
+    <state x="911" y="275" key="FileChooserDialogImpl" timestamp="1578272913109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="911" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578119095335" />
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578101233351">
+    <state x="911" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578272913109" />
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578224301483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578101233351" />
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578224301483" />
     <state x="625" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578016148226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578016148226" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1578273814188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578273814188" />
   </component>
 </project>
