@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06e18bb1-16a7-43fc-8fa8-827ce53be23c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controller/MemberController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/MemberController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/member.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/member.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <workItem from="1578102266588" duration="33000" />
       <workItem from="1578104835439" duration="937000" />
       <workItem from="1578107373828" duration="3053000" />
-      <workItem from="1578224226593" duration="7014000" />
+      <workItem from="1578224226593" duration="10083000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1577951327910</created>
@@ -137,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578277222413</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加 add">
+      <created>1578280014555</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578280014555</updated>
+    </task>
+    <task id="LOCAL-00012" summary="添加 add">
+      <created>1578280035239</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578280035239</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,21 +161,22 @@
     <MESSAGE value="修复 注册 bug" />
     <MESSAGE value="添加权限（13881963366）" />
     <MESSAGE value="修改password登录方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改password登录方式" />
+    <MESSAGE value="添加 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 add" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1578280013774">
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1578280034567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578280013774" />
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578280034567" />
     <state x="911" y="275" key="FileChooserDialogImpl" timestamp="1578272913109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="911" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578272913109" />
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578280016653">
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578280036535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578280016653" />
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578280036535" />
     <state x="625" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578016148226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
