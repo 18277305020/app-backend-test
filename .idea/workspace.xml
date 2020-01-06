@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06e18bb1-16a7-43fc-8fa8-827ce53be23c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/DBUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/DBUtil.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kaleidoscope-pc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,7 +64,8 @@
       <workItem from="1578102266588" duration="33000" />
       <workItem from="1578104835439" duration="937000" />
       <workItem from="1578107373828" duration="3053000" />
-      <workItem from="1578224226593" duration="10083000" />
+      <workItem from="1578224226593" duration="10098000" />
+      <workItem from="1578297659534" duration="871000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1577951327910</created>
@@ -149,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578280035239</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="添加 add">
+      <created>1578293869137</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578293869137</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,18 +174,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加 add" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1578280034567">
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1578293868497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578280034567" />
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578293868497" />
     <state x="911" y="275" key="FileChooserDialogImpl" timestamp="1578272913109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="911" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578272913109" />
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578280036535">
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578293870484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578280036535" />
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578293870484" />
     <state x="625" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578016148226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
