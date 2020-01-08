@@ -3,6 +3,7 @@ const CryptUtil = require("../lib/CryptUtil");
 const {rule} = require('../lib/Rule')
 const [CREATE] = require('../lib/ruleData/member')
 const {findAllMember, findMember, createMember, delMember, editMember, getTotal} = require("../model/MemberModel");
+const {findDepartment} = require("../model/DepartmentModel");
 
 //注册
 const create = async (req, res) => {

@@ -2,9 +2,10 @@ const knex = require("./connection");
 
 //TODO 查询全部(分页)
 const all = (table, params, page, size) => {
-    return knex(table).where(params).limit(size).offset((page - 1) * size).orderBy([
-        {column: 'family'}
-    ])
+    return knex(table).where(params).limit(size).offset((page - 1) * size)
+        // .orderBy([
+        //     {column: 'family'}
+        // ])
 }
 
 //TODO 查询全部
