@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const {getAll, del, create, update, login, add} = require('../controller/MemberController');
+const {getAll, del, create, update, login, add, list} = require('../controller/MemberController');
 const {sendSMSCode, resolveSMSCode} = require('../middleware/SMS')
 const {ensureAuthenticated} = require('../middleware/AuthenticatedMiddleware')
 const {role} = require('../middleware/Authority')
@@ -13,6 +13,8 @@ router.get('/sms/send', sendSMSCode)
 router.post("/login", login)
 
 router.post("/list", ensureAuthenticated, role, getAll)
+
+router.post("/listAll", ensureAuthenticated, role, list)
 
 router.post("/create", resolveSMSCode, create)
 

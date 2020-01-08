@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06e18bb1-16a7-43fc-8fa8-827ce53be23c" name="Default Changelist" comment="添加排序">
-      <change afterPath="$PROJECT_DIR$/server/controller/DepartmentController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db/migrations/20200107152351_department.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/model/DepartmentModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/department.js" afterDir="false" />
+    <list default="true" id="06e18bb1-16a7-43fc-8fa8-827ce53be23c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/main-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/main-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/route-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/route-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controller/MemberController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/MemberController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/DBUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/DBUtil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/member.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/member.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +82,7 @@
       <workItem from="1578297659534" duration="4036000" />
       <workItem from="1578359750745" duration="866000" />
       <workItem from="1578368650464" duration="1856000" />
-      <workItem from="1578379755259" duration="10065000" />
+      <workItem from="1578379755259" duration="11368000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1577951327910</created>
@@ -188,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578298559712</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="新增系部组织">
+      <created>1578464550586</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578464550586</updated>
+    </task>
+    <task id="LOCAL-00016" summary="新增系部组织">
+      <created>1578464696188</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578464696189</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,21 +210,22 @@
     <MESSAGE value="修改password登录方式" />
     <MESSAGE value="添加 add" />
     <MESSAGE value="添加排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加排序" />
+    <MESSAGE value="新增系部组织" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增系部组织" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1578464549724">
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1578464695596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578464549724" />
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578464695596" />
     <state x="911" y="275" key="FileChooserDialogImpl" timestamp="1578464217065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="911" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578464217065" />
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578464553025">
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578464700759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578464553025" />
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578464700759" />
     <state x="625" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578016148226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

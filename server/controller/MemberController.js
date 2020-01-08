@@ -3,7 +3,6 @@ const CryptUtil = require("../lib/CryptUtil");
 const {rule} = require('../lib/Rule')
 const [CREATE] = require('../lib/ruleData/member')
 const {findAllMember, findMember, createMember, delMember, editMember, getTotal} = require("../model/MemberModel");
-const {findDepartment} = require("../model/DepartmentModel");
 
 //注册
 const create = async (req, res) => {
@@ -186,6 +185,16 @@ const del = async (req, res) => {
     })
 }
 
+//查询全部
+const list = async (req, res) => {
+    const result = await findMember({})
+    return res.status(200).json({
+        code: 0,
+        result,
+        message: '查询成功'
+    })
+}
+
 
 module.exports = {
     create,
@@ -193,5 +202,6 @@ module.exports = {
     update,
     getAll,
     del,
-    add
+    add,
+    list
 };
