@@ -7,7 +7,7 @@ const {role} = require('../middleware/Authority')
 
 router.post("/list", ensureAuthenticated, role, getAll)
 
-router.post("/listAll", ensureAuthenticated, role, list)
+router.post("/listAll", list)
 
 router.post("/add", add)
 

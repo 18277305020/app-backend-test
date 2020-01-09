@@ -44,7 +44,8 @@ const update = async (req, res) => {
 }
 
 const list = async (req, res) => {
-    const result = await findDepartment({})
+    const params = {...req.body}
+    const result = await findDepartment(params)
     return res.status(200).json({
         code: 0,
         result,
@@ -62,27 +63,35 @@ const getAll = async (req, res) => {
     try {
         const results = await findAllDepartment(params.query, page, size);
 
-        results.forEach(async item => {
-            let host = await findMember({mid: item.host_mid})
-            item.host_info = host[0]
-        })
-
-        results.forEach(async item => {
-            let create = await findMember({mid: item.create_mid})
-            item.create_info = create[0]
-        })
+        // results.forEach(async item => {
+        //     let host = await findMember({mid: item.host_mid})
+        //     item.host_info = host[0]
+        // })
+        //
+        // results.forEach(async item => {
+        //     let create = await findMember({mid: item.create_mid})
+        //     item.create_info = create[0]
+        // })
         //TODO 延迟等待
         const total = await getTotal(params.query)
-        setTimeout(() => {
-            return res.status(200).json({
-                page,
-                size,
-                total: Number(total[0].count),
-                data: results,
-                message: "success",
-                code: 0
-            });
-        }, 1000)
+        return res.status(200).json({
+            page,
+            size,
+            total: Number(total[0].count),
+            data: results,
+            message: "success",
+            code: 0
+        });
+        // setTimeout(() => {
+        //     return res.status(200).json({
+        //         page,
+        //         size,
+        //         total: Number(total[0].count),
+        //         data: results,
+        //         message: "success",
+        //         code: 0
+        //     });
+        // }, 1000)
     } catch (e) {
         Logger.error("GetAllThanksgiving error", e.message);
         return res.status(500).json({
