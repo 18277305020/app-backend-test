@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\WebstormProjects\\app-backend-test1\\server\\logs\\.f3c0446d63cbf35f3a928ba62ca4f2837a7f7e1d-audit.json",
+    "files": [
+        {
+            "date": 1578974784914,
+            "name": "E:\\WebstormProjects\\app-backend-test1\\server\\logs\\error-2020-01-14.log",
+            "hash": "b8156543b96ed19a47a30da2fce0cd8a"
+        }
+    ]
+}

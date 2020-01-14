@@ -1,0 +1,19 @@
+2020-01-06T01:23:22.429Z - error: login result is not defined filePath=E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, lineNumber=78
+2020-01-06T01:23:48.077Z - error: login result is not defined filePath=E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, lineNumber=78
+2020-01-06T03:01:13.762Z - error: register Error: Undefined binding(s) detected when compiling SELECT query: select * from "member" where "phone" = ?
+    at QueryCompiler_PG.toSQL (E:\WebstormProjects\app-backend-test1\node_modules\knex\lib\query\compiler.js:85:13)
+    at Builder.toSQL (E:\WebstormProjects\app-backend-test1\node_modules\knex\lib\query\builder.js:72:44)
+    at E:\WebstormProjects\app-backend-test1\node_modules\knex\lib\runner.js:37:34
+    at tryCatcher (E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\util.js:16:23)
+    at E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\using.js:185:26
+    at tryCatcher (E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\promise.js:729:18)
+    at Promise._fulfill (E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\promise.js:673:18)
+    at PromiseArray._resolve (E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\promise_array.js:127:19)
+    at PromiseArray._promiseFulfilled (E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\promise_array.js:145:14)
+    at Promise._settlePromise (E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\promise.js:609:26)
+    at Promise._settlePromise0 (E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\WebstormProjects\app-backend-test1\node_modules\bluebird\js\release\promise.js:729:18) filePath=E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, lineNumber=66

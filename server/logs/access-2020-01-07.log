@@ -1,0 +1,653 @@
+2020-01-07T06:49:39.162Z - info: OPTIONS /api/member/list 200 4 - 2.738 ms
+2020-01-07T06:49:39.310Z - info: POST /api/member/list 200  - 130.431 ms
+2020-01-07T06:49:41.942Z - info: POST /api/member/list 200  - 8.799 ms
+2020-01-07T06:49:52.433Z - info: OPTIONS /api/member/update 200 4 - 0.296 ms
+2020-01-07T06:49:54.440Z - info: POST /api/member/update   -  ms
+2020-01-07T06:51:31.742Z - info: OPTIONS /api/member/update 200 4 - 2.561 ms
+2020-01-07T06:51:33.735Z - info: POST /api/member/update   -  ms
+2020-01-07T06:53:25.235Z - info: OPTIONS /api/member/list 200 4 - 2.645 ms
+2020-01-07T06:53:25.376Z - info: POST /api/member/list 200  - 94.344 ms
+2020-01-07T06:53:27.736Z - info: OPTIONS /api/member/update 200 4 - 0.326 ms
+2020-01-07T06:53:27.749Z - info: POST /api/member/update 200 45 - 10.118 ms
+2020-01-07T06:53:34.261Z - info: OPTIONS /api/member/list 200 4 - 0.255 ms
+2020-01-07T06:53:34.309Z - info: POST /api/member/list 200  - 7.484 ms
+2020-01-07T06:53:40.518Z - info: OPTIONS /api/member/update 200 4 - 0.260 ms
+2020-01-07T06:53:40.531Z - info: POST /api/member/update 200 45 - 7.412 ms
+2020-01-07T06:53:42.574Z - info: OPTIONS /api/member/list 200 4 - 0.311 ms
+2020-01-07T06:53:42.634Z - info: POST /api/member/list 200  - 4.599 ms
+2020-01-07T06:55:22.073Z - info: OPTIONS /api/member/list 200 4 - 0.223 ms
+2020-01-07T06:55:22.092Z - info: POST /api/member/list 200  - 3.401 ms
+2020-01-07T06:55:26.453Z - info: POST /api/member/list 200  - 5.039 ms
+2020-01-07T06:55:30.151Z - info: OPTIONS /api/member/update 200 4 - 0.254 ms
+2020-01-07T06:55:30.161Z - info: POST /api/member/update 200 45 - 7.504 ms
+2020-01-07T06:55:30.170Z - info: OPTIONS /api/member/list 200 4 - 0.279 ms
+2020-01-07T06:55:30.178Z - info: POST /api/member/list 200  - 4.250 ms
+2020-01-07T06:55:39.401Z - info: OPTIONS /api/member/list 200 4 - 0.298 ms
+2020-01-07T06:55:39.476Z - info: POST /api/member/list 200  - 9.998 ms
+2020-01-07T06:55:45.422Z - info: OPTIONS /api/member/update 200 4 - 0.252 ms
+2020-01-07T06:55:45.431Z - info: POST /api/member/update 200 45 - 6.298 ms
+2020-01-07T06:55:45.443Z - info: OPTIONS /api/member/list 200 4 - 0.350 ms
+2020-01-07T06:55:45.455Z - info: POST /api/member/list 200  - 4.427 ms
+2020-01-07T06:55:49.373Z - info: POST /api/member/update 200 45 - 7.287 ms
+2020-01-07T06:55:49.384Z - info: POST /api/member/list 200  - 3.889 ms
+2020-01-07T06:55:52.016Z - info: OPTIONS /api/member/list 200 4 - 0.333 ms
+2020-01-07T06:55:52.063Z - info: POST /api/member/list 200  - 9.720 ms
+2020-01-07T06:56:24.239Z - info: OPTIONS /api/member/update 200 4 - 0.313 ms
+2020-01-07T06:56:24.249Z - info: POST /api/member/update 200 45 - 7.260 ms
+2020-01-07T06:56:24.263Z - info: OPTIONS /api/member/list 200 4 - 0.295 ms
+2020-01-07T06:56:24.274Z - info: POST /api/member/list 200  - 3.916 ms
+2020-01-07T06:56:29.633Z - info: OPTIONS /api/member/list 200 4 - 0.237 ms
+2020-01-07T06:56:29.699Z - info: POST /api/member/list 200  - 4.199 ms
+2020-01-07T06:56:40.766Z - info: OPTIONS /api/member/list 200 4 - 0.205 ms
+2020-01-07T06:56:40.788Z - info: POST /api/member/list 200  - 4.029 ms
+2020-01-07T06:57:53.959Z - info: OPTIONS /api/member/list 200 4 - 0.280 ms
+2020-01-07T06:57:53.969Z - info: POST /api/member/list 200  - 3.927 ms
+2020-01-07T06:59:20.963Z - info: OPTIONS /api/member/list 200 4 - 0.256 ms
+2020-01-07T06:59:20.971Z - info: POST /api/member/list 200  - 3.471 ms
+2020-01-07T06:59:23.659Z - info: POST /api/member/list 200  - 6.328 ms
+2020-01-07T07:02:14.232Z - info: OPTIONS /api/member/list 200 4 - 0.205 ms
+2020-01-07T07:02:14.258Z - info: POST /api/member/list 200  - 4.060 ms
+2020-01-07T07:02:16.972Z - info: POST /api/member/list 200  - 4.459 ms
+2020-01-07T07:02:51.481Z - info: OPTIONS /api/member/list 200 4 - 0.251 ms
+2020-01-07T07:02:51.527Z - info: POST /api/member/list 200  - 5.900 ms
+2020-01-07T07:04:00.356Z - info: OPTIONS /api/member/list 200 4 - 0.205 ms
+2020-01-07T07:04:00.376Z - info: POST /api/member/list 200  - 4.347 ms
+2020-01-07T07:04:02.667Z - info: POST /api/member/list 200  - 5.014 ms
+2020-01-07T07:04:12.972Z - info: OPTIONS /api/member/create 200 4 - 0.230 ms
+2020-01-07T07:04:12.982Z - info: POST /api/member/create 200 41 - 5.771 ms
+2020-01-07T07:04:44.426Z - info: OPTIONS /api/member/list 200 4 - 0.197 ms
+2020-01-07T07:04:44.448Z - info: POST /api/member/list 200  - 4.638 ms
+2020-01-07T07:04:47.028Z - info: POST /api/member/list 200  - 4.827 ms
+2020-01-07T07:04:53.004Z - info: OPTIONS /api/member/add 200 4 - 0.209 ms
+2020-01-07T07:04:53.032Z - info: POST /api/member/add 200 303 - 25.339 ms
+2020-01-07T07:04:53.042Z - info: OPTIONS /api/member/list 200 4 - 0.242 ms
+2020-01-07T07:04:53.050Z - info: POST /api/member/list 200  - 2.882 ms
+2020-01-07T07:05:06.294Z - info: OPTIONS /api/member/update 200 4 - 0.317 ms
+2020-01-07T07:05:06.305Z - info: POST /api/member/update 200 45 - 6.884 ms
+2020-01-07T07:05:06.315Z - info: OPTIONS /api/member/list 200 4 - 0.222 ms
+2020-01-07T07:05:06.328Z - info: POST /api/member/list 200  - 6.027 ms
+2020-01-07T07:05:10.495Z - info: POST /api/member/list 200  - 4.621 ms
+2020-01-07T07:07:38.718Z - info: OPTIONS /api/member/list 200 4 - 0.237 ms
+2020-01-07T07:07:38.742Z - info: POST /api/member/list 200  - 3.515 ms
+2020-01-07T07:08:18.463Z - info: OPTIONS /api/member/list 200 4 - 0.257 ms
+2020-01-07T07:08:18.478Z - info: POST /api/member/list 200  - 4.880 ms
+2020-01-07T07:08:21.459Z - info: POST /api/member/list 200  - 13.052 ms
+2020-01-07T07:08:24.839Z - info: OPTIONS /api/member/remove?mid=bbd0b8cf-b378-40b9-85fc-63ba0b95ecea 200 8 - 0.185 ms
+2020-01-07T07:08:24.846Z - info: GET /api/member/remove?mid=bbd0b8cf-b378-40b9-85fc-63ba0b95ecea 200 46 - 4.061 ms
+2020-01-07T07:08:28.652Z - info: OPTIONS /api/member/list 200 4 - 0.244 ms
+2020-01-07T07:08:28.699Z - info: POST /api/member/list 200  - 5.963 ms
+2020-01-07T07:08:39.512Z - info: OPTIONS /api/member/list 200 4 - 0.199 ms
+2020-01-07T07:08:39.535Z - info: POST /api/member/list 200  - 4.292 ms
+2020-01-07T07:08:43.302Z - info: OPTIONS /api/member/remove?mid=4a4da842-ff9c-4fa9-917c-a16db462aca6 200 8 - 0.204 ms
+2020-01-07T07:08:43.310Z - info: GET /api/member/remove?mid=4a4da842-ff9c-4fa9-917c-a16db462aca6 200 46 - 5.979 ms
+2020-01-07T07:08:43.322Z - info: POST /api/member/list 200  - 3.844 ms
+2020-01-07T07:08:45.704Z - info: OPTIONS /api/member/list 200 4 - 0.257 ms
+2020-01-07T07:08:45.762Z - info: POST /api/member/list 200  - 11.894 ms
+2020-01-07T07:09:22.501Z - info: OPTIONS /api/member/list 200 4 - 0.203 ms
+2020-01-07T07:09:22.527Z - info: POST /api/member/list 200  - 4.799 ms
+2020-01-07T07:11:44.370Z - info: OPTIONS /api/member/list 200 4 - 0.216 ms
+2020-01-07T07:11:44.381Z - info: POST /api/member/list 200  - 6.526 ms
+2020-01-07T07:11:47.243Z - info: POST /api/member/list 200  - 4.101 ms
+2020-01-07T07:11:48.280Z - info: OPTIONS /api/member/remove?mid=80009c01-d9ef-4861-95ff-f71a8fa0cab1 200 8 - 0.245 ms
+2020-01-07T07:11:48.295Z - info: GET /api/member/remove?mid=80009c01-d9ef-4861-95ff-f71a8fa0cab1 200 46 - 2.404 ms
+2020-01-07T07:11:48.308Z - info: POST /api/member/list 200  - 2.829 ms
+2020-01-07T07:12:14.120Z - info: OPTIONS /api/member/list 200 4 - 0.277 ms
+2020-01-07T07:12:14.153Z - info: POST /api/member/list 200  - 2.940 ms
+2020-01-07T07:13:42.487Z - info: OPTIONS /api/member/list 200 4 - 0.230 ms
+2020-01-07T07:13:42.495Z - info: POST /api/member/list 200  - 3.429 ms
+2020-01-07T07:13:48.935Z - info: OPTIONS /api/member/list 200 4 - 0.225 ms
+2020-01-07T07:13:48.995Z - info: POST /api/member/list 200  - 9.003 ms
+2020-01-07T07:13:51.432Z - info: OPTIONS /api/member/remove?mid=3a1df636-3a2a-4c4c-812b-bf2ccfad1738 200 8 - 0.250 ms
+2020-01-07T07:13:51.441Z - info: GET /api/member/remove?mid=3a1df636-3a2a-4c4c-812b-bf2ccfad1738 200 46 - 6.168 ms
+2020-01-07T07:13:51.453Z - info: POST /api/member/list 200  - 2.741 ms
+2020-01-07T07:13:53.645Z - info: POST /api/member/list 200  - 4.810 ms
+2020-01-07T07:14:22.252Z - info: OPTIONS /api/member/list 200 4 - 0.238 ms
+2020-01-07T07:14:22.304Z - info: POST /api/member/list 200  - 3.566 ms
+2020-01-07T07:14:38.017Z - info: OPTIONS /api/member/list 200 4 - 0.218 ms
+2020-01-07T07:14:38.043Z - info: POST /api/member/list 200  - 3.833 ms
+2020-01-07T07:14:45.534Z - info: OPTIONS /api/member/list 200 4 - 0.231 ms
+2020-01-07T07:14:45.547Z - info: POST /api/member/list 200  - 3.891 ms
+2020-01-07T07:15:36.957Z - info: OPTIONS /api/member/list 200 4 - 0.261 ms
+2020-01-07T07:15:36.963Z - info: POST /api/member/list 200  - 2.784 ms
+2020-01-07T07:17:32.932Z - info: OPTIONS /api/member/list 200 4 - 0.236 ms
+2020-01-07T07:17:32.942Z - info: POST /api/member/list 200  - 4.089 ms
+2020-01-07T07:17:44.952Z - info: OPTIONS /api/member/remove?mid=b0205f00-0317-4e24-9364-e40dd3cdd72a 200 8 - 0.265 ms
+2020-01-07T07:17:44.974Z - info: GET /api/member/remove?mid=b0205f00-0317-4e24-9364-e40dd3cdd72a 200 46 - 13.576 ms
+2020-01-07T07:17:44.983Z - info: OPTIONS /api/member/list 200 4 - 0.207 ms
+2020-01-07T07:17:44.996Z - info: POST /api/member/list 200 855 - 8.721 ms
+2020-01-07T07:17:48.362Z - info: POST /api/member/list 200 855 - 4.894 ms
+2020-01-07T07:17:59.797Z - info: OPTIONS /api/member/list 200 4 - 0.224 ms
+2020-01-07T07:17:59.819Z - info: POST /api/member/list 200 855 - 2.822 ms
+2020-01-07T07:19:31.816Z - info: OPTIONS /api/member/list 200 4 - 0.227 ms
+2020-01-07T07:19:31.870Z - info: POST /api/member/list 200 855 - 4.033 ms
+2020-01-07T07:19:55.120Z - info: OPTIONS /api/member/list 200 4 - 0.230 ms
+2020-01-07T07:19:55.148Z - info: POST /api/member/list 200 855 - 4.559 ms
+2020-01-07T07:20:26.459Z - info: OPTIONS /api/member/list 200 4 - 0.287 ms
+2020-01-07T07:20:26.489Z - info: POST /api/member/list 200 855 - 4.649 ms
+2020-01-07T07:20:51.783Z - info: OPTIONS /api/member/list 200 4 - 0.238 ms
+2020-01-07T07:20:51.795Z - info: POST /api/member/list 200 855 - 4.519 ms
+2020-01-07T07:20:53.235Z - info: POST /api/member/list 200 855 - 3.424 ms
+2020-01-07T07:20:53.958Z - info: POST /api/member/list 200 855 - 3.310 ms
+2020-01-07T07:39:09.469Z - error: uncaughtException: Cannot find module '../lib/ruleData/Department'
+Require stack:
+- E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js
+- E:\WebstormProjects\app-backend-test1\server\routes\member.js
+- E:\WebstormProjects\app-backend-test1\server\config\route-config.js
+- E:\WebstormProjects\app-backend-test1\server\app.js
+- E:\WebstormProjects\app-backend-test1\server.js date=Tue Jan 07 2020 15:39:09 GMT+0800 (GMT+08:00), pid=11984, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test1, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test1\server.js], rss=72056832, heapTotal=58675200, heapUsed=37792408, external=2102470, loadavg=[0, 0, 0], uptime=280158, trace=[column=15, file=internal/modules/cjs/loader.js, function=Module._resolveFilename, line=797, method=_resolveFilename, native=false, column=27, file=internal/modules/cjs/loader.js, function=Module._load, line=690, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=18, file=E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, function=null, line=4, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false], stack=[Error: Cannot find module '../lib/ruleData/Department', Require stack:, - E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, - E:\WebstormProjects\app-backend-test1\server\routes\member.js, - E:\WebstormProjects\app-backend-test1\server\config\route-config.js, - E:\WebstormProjects\app-backend-test1\server\app.js, - E:\WebstormProjects\app-backend-test1\server.js,     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15),     at Function.Module._load (internal/modules/cjs/loader.js:690:27),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js:4:18),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19)]
+2020-01-07T07:39:45.939Z - error: uncaughtException: Cannot find module '../lib/ruleData/Department'
+Require stack:
+- E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js
+- E:\WebstormProjects\app-backend-test1\server\routes\member.js
+- E:\WebstormProjects\app-backend-test1\server\config\route-config.js
+- E:\WebstormProjects\app-backend-test1\server\app.js
+- E:\WebstormProjects\app-backend-test1\server.js date=Tue Jan 07 2020 15:39:45 GMT+0800 (GMT+08:00), pid=5688, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test1, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test1\server.js], rss=77021184, heapTotal=59461632, heapUsed=35434680, external=1464110, loadavg=[0, 0, 0], uptime=280195, trace=[column=15, file=internal/modules/cjs/loader.js, function=Module._resolveFilename, line=797, method=_resolveFilename, native=false, column=27, file=internal/modules/cjs/loader.js, function=Module._load, line=690, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=18, file=E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, function=null, line=4, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false], stack=[Error: Cannot find module '../lib/ruleData/Department', Require stack:, - E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, - E:\WebstormProjects\app-backend-test1\server\routes\member.js, - E:\WebstormProjects\app-backend-test1\server\config\route-config.js, - E:\WebstormProjects\app-backend-test1\server\app.js, - E:\WebstormProjects\app-backend-test1\server.js,     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15),     at Function.Module._load (internal/modules/cjs/loader.js:690:27),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js:4:18),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19)]
+2020-01-07T07:40:46.582Z - error: uncaughtException: Cannot find module '../lib/ruleData/Department'
+Require stack:
+- E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js
+- E:\WebstormProjects\app-backend-test1\server\routes\member.js
+- E:\WebstormProjects\app-backend-test1\server\config\route-config.js
+- E:\WebstormProjects\app-backend-test1\server\app.js
+- E:\WebstormProjects\app-backend-test1\server.js date=Tue Jan 07 2020 15:40:46 GMT+0800 (GMT+08:00), pid=12076, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test1, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test1\server.js], rss=77127680, heapTotal=59723776, heapUsed=35372760, external=1464111, loadavg=[0, 0, 0], uptime=280256, trace=[column=15, file=internal/modules/cjs/loader.js, function=Module._resolveFilename, line=797, method=_resolveFilename, native=false, column=27, file=internal/modules/cjs/loader.js, function=Module._load, line=690, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=18, file=E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, function=null, line=4, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false], stack=[Error: Cannot find module '../lib/ruleData/Department', Require stack:, - E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, - E:\WebstormProjects\app-backend-test1\server\routes\member.js, - E:\WebstormProjects\app-backend-test1\server\config\route-config.js, - E:\WebstormProjects\app-backend-test1\server\app.js, - E:\WebstormProjects\app-backend-test1\server.js,     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15),     at Function.Module._load (internal/modules/cjs/loader.js:690:27),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js:4:18),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19)]
+2020-01-07T07:41:00.335Z - error: uncaughtException: Cannot find module '../lib/ruleData/Department'
+Require stack:
+- E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js
+- E:\WebstormProjects\app-backend-test1\server\routes\member.js
+- E:\WebstormProjects\app-backend-test1\server\config\route-config.js
+- E:\WebstormProjects\app-backend-test1\server\app.js
+- E:\WebstormProjects\app-backend-test1\server.js date=Tue Jan 07 2020 15:41:00 GMT+0800 (GMT+08:00), pid=13152, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test1, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test1\server.js], rss=77574144, heapTotal=59461632, heapUsed=35423168, external=1464112, loadavg=[0, 0, 0], uptime=280269, trace=[column=15, file=internal/modules/cjs/loader.js, function=Module._resolveFilename, line=797, method=_resolveFilename, native=false, column=27, file=internal/modules/cjs/loader.js, function=Module._load, line=690, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=18, file=E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, function=null, line=4, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false], stack=[Error: Cannot find module '../lib/ruleData/Department', Require stack:, - E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, - E:\WebstormProjects\app-backend-test1\server\routes\member.js, - E:\WebstormProjects\app-backend-test1\server\config\route-config.js, - E:\WebstormProjects\app-backend-test1\server\app.js, - E:\WebstormProjects\app-backend-test1\server.js,     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15),     at Function.Module._load (internal/modules/cjs/loader.js:690:27),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js:4:18),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19)]
+2020-01-07T07:41:36.482Z - error: uncaughtException: Cannot find module '../lib/ruleData/Department'
+Require stack:
+- E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js
+- E:\WebstormProjects\app-backend-test1\server\routes\member.js
+- E:\WebstormProjects\app-backend-test1\server\config\route-config.js
+- E:\WebstormProjects\app-backend-test1\server\app.js
+- E:\WebstormProjects\app-backend-test1\server.js date=Tue Jan 07 2020 15:41:36 GMT+0800 (GMT+08:00), pid=11172, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test1, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test1\server.js], rss=77144064, heapTotal=59199488, heapUsed=35346304, external=1464112, loadavg=[0, 0, 0], uptime=280305, trace=[column=15, file=internal/modules/cjs/loader.js, function=Module._resolveFilename, line=797, method=_resolveFilename, native=false, column=27, file=internal/modules/cjs/loader.js, function=Module._load, line=690, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=18, file=E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, function=null, line=4, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false], stack=[Error: Cannot find module '../lib/ruleData/Department', Require stack:, - E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, - E:\WebstormProjects\app-backend-test1\server\routes\member.js, - E:\WebstormProjects\app-backend-test1\server\config\route-config.js, - E:\WebstormProjects\app-backend-test1\server\app.js, - E:\WebstormProjects\app-backend-test1\server.js,     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15),     at Function.Module._load (internal/modules/cjs/loader.js:690:27),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js:4:18),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19)]
+2020-01-07T07:41:47.965Z - error: uncaughtException: Cannot find module '../lib/ruleData/Department'
+Require stack:
+- E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js
+- E:\WebstormProjects\app-backend-test1\server\routes\member.js
+- E:\WebstormProjects\app-backend-test1\server\config\route-config.js
+- E:\WebstormProjects\app-backend-test1\server\app.js
+- E:\WebstormProjects\app-backend-test1\server.js date=Tue Jan 07 2020 15:41:47 GMT+0800 (GMT+08:00), pid=8392, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test1, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test1\server.js], rss=72011776, heapTotal=58675200, heapUsed=37941520, external=2102472, loadavg=[0, 0, 0], uptime=280317, trace=[column=15, file=internal/modules/cjs/loader.js, function=Module._resolveFilename, line=797, method=_resolveFilename, native=false, column=27, file=internal/modules/cjs/loader.js, function=Module._load, line=690, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=18, file=E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, function=null, line=4, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false], stack=[Error: Cannot find module '../lib/ruleData/Department', Require stack:, - E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, - E:\WebstormProjects\app-backend-test1\server\routes\member.js, - E:\WebstormProjects\app-backend-test1\server\config\route-config.js, - E:\WebstormProjects\app-backend-test1\server\app.js, - E:\WebstormProjects\app-backend-test1\server.js,     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15),     at Function.Module._load (internal/modules/cjs/loader.js:690:27),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js:4:18),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19)]
+2020-01-07T07:44:41.830Z - error: uncaughtException: Cannot find module '../lib/ruleData/Department'
+Require stack:
+- E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js
+- E:\WebstormProjects\app-backend-test1\server\routes\member.js
+- E:\WebstormProjects\app-backend-test1\server\config\route-config.js
+- E:\WebstormProjects\app-backend-test1\server\app.js
+- E:\WebstormProjects\app-backend-test1\server.js date=Tue Jan 07 2020 15:44:41 GMT+0800 (GMT+08:00), pid=8804, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test1, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test1\server.js], rss=77508608, heapTotal=59461632, heapUsed=35387336, external=1464112, loadavg=[0, 0, 0], uptime=280491, trace=[column=15, file=internal/modules/cjs/loader.js, function=Module._resolveFilename, line=797, method=_resolveFilename, native=false, column=27, file=internal/modules/cjs/loader.js, function=Module._load, line=690, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=18, file=E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, function=null, line=4, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false], stack=[Error: Cannot find module '../lib/ruleData/Department', Require stack:, - E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js, - E:\WebstormProjects\app-backend-test1\server\routes\member.js, - E:\WebstormProjects\app-backend-test1\server\config\route-config.js, - E:\WebstormProjects\app-backend-test1\server\app.js, - E:\WebstormProjects\app-backend-test1\server.js,     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15),     at Function.Module._load (internal/modules/cjs/loader.js:690:27),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\controller\MemberController.js:4:18),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19)]
+2020-01-07T07:46:10.376Z - info: POST /api/department/add 500 36 - 196.647 ms
+2020-01-07T07:46:41.831Z - info: POST /api/department/add 200 236 - 17.720 ms
+2020-01-07T07:47:02.092Z - info: POST /api/department/list 200 38 - 2.214 ms
+2020-01-07T07:47:27.504Z - info: POST /api/department/list 500 45 - 6.203 ms
+2020-01-07T07:48:18.371Z - info: POST /api/department/list 500 45 - 3.910 ms
+2020-01-07T07:49:07.710Z - info: POST /api/department/list 200 251 - 86.325 ms
+2020-01-07T07:50:53.529Z - info: OPTIONS /api/member/list 200 4 - 1.020 ms
+2020-01-07T07:50:53.539Z - info: POST /api/member/list 200 251 - 5.441 ms
+2020-01-07T07:52:32.736Z - info: OPTIONS /api/department/list 200 4 - 0.324 ms
+2020-01-07T07:52:32.761Z - info: POST /api/department/list 200 251 - 3.684 ms
+2020-01-07T07:52:39.927Z - info: OPTIONS /api/department/list 200 4 - 0.456 ms
+2020-01-07T07:52:39.974Z - info: POST /api/department/list 200 251 - 8.179 ms
+2020-01-07T07:53:20.805Z - info: OPTIONS /api/department/list 200 4 - 0.243 ms
+2020-01-07T07:53:20.832Z - info: POST /api/department/list 200 251 - 3.861 ms
+2020-01-07T07:53:27.795Z - info: OPTIONS /api/department/list 200 4 - 0.257 ms
+2020-01-07T07:53:27.802Z - info: POST /api/department/list 200 251 - 3.379 ms
+2020-01-07T07:53:30.815Z - info: POST /api/department/list 200 251 - 4.187 ms
+2020-01-07T07:53:48.610Z - info: OPTIONS /api/department/list 200 4 - 0.256 ms
+2020-01-07T07:53:48.615Z - info: POST /api/department/list 200 251 - 3.139 ms
+2020-01-07T07:53:51.695Z - info: POST /api/department/list 200 251 - 3.583 ms
+2020-01-07T07:53:54.707Z - info: OPTIONS /api/department/list 200 4 - 0.257 ms
+2020-01-07T07:53:54.718Z - info: POST /api/department/list 200 251 - 2.890 ms
+2020-01-07T07:54:00.209Z - info: OPTIONS /api/department/list 200 4 - 0.258 ms
+2020-01-07T07:54:00.218Z - info: POST /api/department/list 200 251 - 3.436 ms
+2020-01-07T07:54:04.821Z - info: POST /api/department/list 200 251 - 3.576 ms
+2020-01-07T07:54:26.929Z - info: OPTIONS /api/department/list 200 4 - 0.281 ms
+2020-01-07T07:54:26.935Z - info: POST /api/department/list 200 251 - 3.528 ms
+2020-01-07T07:55:49.487Z - info: OPTIONS /api/department/list 200 4 - 0.334 ms
+2020-01-07T07:55:49.494Z - info: POST /api/department/list 200 251 - 4.933 ms
+2020-01-07T07:59:30.195Z - info: OPTIONS /api/department/list 200 4 - 2.143 ms
+2020-01-07T07:59:30.283Z - info: POST /api/department/list 500 45 - 75.737 ms
+2020-01-07T07:59:31.432Z - info: POST /api/department/list 500 45 - 5.481 ms
+2020-01-07T08:00:23.860Z - info: OPTIONS /api/department/list 200 4 - 2.883 ms
+2020-01-07T08:00:24.014Z - info: POST /api/department/list 500 45 - 104.665 ms
+2020-01-07T08:00:59.363Z - info: OPTIONS /api/department/list 200 4 - 2.795 ms
+2020-01-07T08:00:59.628Z - info: POST /api/department/list 500 45 - 223.264 ms
+2020-01-07T08:01:18.648Z - info: OPTIONS /api/member/list 200 4 - 0.738 ms
+2020-01-07T08:01:18.659Z - info: POST /api/member/list 500 45 - 4.640 ms
+2020-01-07T08:01:21.276Z - info: POST /api/member/list 500 45 - 5.085 ms
+2020-01-07T08:02:22.377Z - info: OPTIONS /api/member/list 200 4 - 2.141 ms
+2020-01-07T08:02:22.465Z - info: POST /api/member/list 200 251 - 78.757 ms
+2020-01-07T08:02:26.206Z - info: POST /api/member/list 200 251 - 6.358 ms
+2020-01-07T08:02:29.609Z - info: OPTIONS /api/department/list 200 4 - 0.497 ms
+2020-01-07T08:02:29.618Z - info: POST /api/department/list 200 251 - 3.488 ms
+2020-01-07T08:02:30.454Z - info: OPTIONS /api/member/list 200 4 - 0.260 ms
+2020-01-07T08:02:30.464Z - info: POST /api/member/list 200 251 - 4.644 ms
+2020-01-07T08:02:31.326Z - info: POST /api/department/list 200 251 - 4.154 ms
+2020-01-07T08:02:31.764Z - info: POST /api/member/list 200 251 - 4.837 ms
+2020-01-07T08:02:38.896Z - info: OPTIONS /api/member/list 200 4 - 0.249 ms
+2020-01-07T08:02:38.955Z - info: POST /api/member/list 200 251 - 6.239 ms
+2020-01-07T08:02:45.785Z - info: OPTIONS /api/department/list 200 4 - 0.520 ms
+2020-01-07T08:02:45.796Z - info: POST /api/department/list 200 251 - 5.041 ms
+2020-01-07T08:04:21.585Z - info: OPTIONS /api/department/list 200 4 - 2.602 ms
+2020-01-07T08:04:21.873Z - info: POST /api/department/list 500 45 - 233.773 ms
+2020-01-07T08:04:22.967Z - info: OPTIONS /api/member/list 200 4 - 0.500 ms
+2020-01-07T08:04:22.981Z - info: POST /api/member/list 500 45 - 4.720 ms
+2020-01-07T08:05:27.545Z - info: OPTIONS /api/member/list 200 4 - 2.149 ms
+2020-01-07T08:05:27.643Z - info: POST /api/member/list 200 855 - 86.769 ms
+2020-01-07T08:05:30.281Z - info: OPTIONS /api/department/list 200 4 - 0.535 ms
+2020-01-07T08:05:30.291Z - info: POST /api/department/list 200 855 - 3.524 ms
+2020-01-07T08:05:31.192Z - info: POST /api/member/list 200 855 - 4.774 ms
+2020-01-07T08:05:32.213Z - info: POST /api/department/list 200 855 - 4.543 ms
+2020-01-07T08:05:33.049Z - info: OPTIONS /api/member/list 200 4 - 0.277 ms
+2020-01-07T08:05:33.059Z - info: POST /api/member/list 200 855 - 3.352 ms
+2020-01-07T08:06:47.489Z - info: OPTIONS /api/department/list 200 4 - 2.808 ms
+2020-01-07T08:06:47.711Z - info: POST /api/department/list 500 45 - 208.821 ms
+2020-01-07T08:07:52.777Z - info: OPTIONS /api/department/list 200 4 - 2.844 ms
+2020-01-07T08:07:52.917Z - info: POST /api/department/list 200 251 - 87.444 ms
+2020-01-07T08:07:53.962Z - info: OPTIONS /api/member/list 200 4 - 0.514 ms
+2020-01-07T08:07:53.973Z - info: POST /api/member/list 200 855 - 4.501 ms
+2020-01-07T08:07:55.244Z - info: POST /api/department/list 200 251 - 5.245 ms
+2020-01-07T08:11:17.112Z - info: OPTIONS /api/department/list 200 4 - 0.478 ms
+2020-01-07T08:11:17.156Z - info: POST /api/department/list 200 251 - 4.585 ms
+2020-01-07T08:12:38.820Z - info: OPTIONS /api/department/list 200 4 - 0.305 ms
+2020-01-07T08:12:38.828Z - info: POST /api/department/list 200 251 - 3.777 ms
+2020-01-07T08:13:04.181Z - info: OPTIONS /api/department/add 200 4 - 1.185 ms
+2020-01-07T08:13:04.205Z - info: POST /api/department/add 500 36 - 20.809 ms
+2020-01-07T08:14:50.355Z - info: OPTIONS /api/department/list 200 4 - 0.272 ms
+2020-01-07T08:14:50.361Z - info: POST /api/department/list 200 251 - 3.740 ms
+2020-01-07T08:14:52.265Z - info: POST /api/department/list 200 251 - 4.144 ms
+2020-01-07T08:14:57.797Z - info: OPTIONS /api/department/add 200 4 - 1.293 ms
+2020-01-07T08:14:57.803Z - info: POST /api/department/add 500 36 - 2.954 ms
+2020-01-07T08:15:26.623Z - info: OPTIONS /api/department/add 200 4 - 2.879 ms
+2020-01-07T08:15:26.740Z - info: POST /api/department/add 200 243 - 104.266 ms
+2020-01-07T08:15:26.749Z - info: OPTIONS /api/department/list 200 4 - 0.387 ms
+2020-01-07T08:15:26.767Z - info: POST /api/department/list 200 441 - 8.143 ms
+2020-01-07T08:15:46.630Z - info: OPTIONS /api/department/add 200 4 - 2.339 ms
+2020-01-07T08:15:46.722Z - info: POST /api/department/add 200 41 - 79.898 ms
+2020-01-07T08:16:29.734Z - info: OPTIONS /api/department/list 200 4 - 0.594 ms
+2020-01-07T08:16:29.749Z - info: POST /api/department/list 200 251 - 11.056 ms
+2020-01-07T08:16:31.530Z - info: POST /api/department/list 200 441 - 5.340 ms
+2020-01-07T08:16:32.633Z - info: POST /api/department/list 200 258 - 4.492 ms
+2020-01-07T08:16:34.202Z - info: POST /api/department/list 200 441 - 4.146 ms
+2020-01-07T08:16:35.413Z - info: OPTIONS /api/department/list 200 4 - 0.258 ms
+2020-01-07T08:16:35.418Z - info: POST /api/department/list 200 69 - 3.336 ms
+2020-01-07T08:16:37.560Z - info: POST /api/department/list 200 441 - 3.867 ms
+2020-01-07T08:16:45.331Z - info: OPTIONS /api/department/add 200 4 - 0.298 ms
+2020-01-07T08:16:45.351Z - info: POST /api/department/add 500 36 - 15.457 ms
+2020-01-07T08:16:53.484Z - info: OPTIONS /api/department/list 200 4 - 0.272 ms
+2020-01-07T08:16:53.545Z - info: POST /api/department/list 200 441 - 7.120 ms
+2020-01-07T08:17:18.863Z - info: OPTIONS /api/department/list 200 4 - 0.280 ms
+2020-01-07T08:17:18.920Z - info: POST /api/department/list 200 441 - 6.934 ms
+2020-01-07T08:17:20.950Z - info: OPTIONS /api/department/update 200 4 - 0.266 ms
+2020-01-07T08:17:22.952Z - info: POST /api/department/update   -  ms
+2020-01-07T08:18:08.105Z - info: OPTIONS /api/department/list 200 4 - 2.432 ms
+2020-01-07T08:18:08.256Z - info: POST /api/department/list 200 441 - 100.722 ms
+2020-01-07T08:18:11.740Z - info: OPTIONS /api/department/update 200 4 - 0.316 ms
+2020-01-07T08:18:13.743Z - info: POST /api/department/update   -  ms
+2020-01-07T08:18:51.590Z - info: OPTIONS /api/department/list 200 4 - 0.467 ms
+2020-01-07T08:18:51.614Z - info: POST /api/department/list 200 441 - 5.429 ms
+2020-01-07T08:18:54.123Z - info: POST /api/department/list 200 441 - 9.645 ms
+2020-01-07T08:19:31.979Z - info: OPTIONS /api/department/list 200 4 - 0.254 ms
+2020-01-07T08:19:32.004Z - info: POST /api/department/list 200 441 - 5.013 ms
+2020-01-07T08:19:33.539Z - info: POST /api/department/list 200 441 - 4.375 ms
+2020-01-07T08:19:56.058Z - info: OPTIONS /api/department/list 200 4 - 2.572 ms
+2020-01-07T08:19:56.212Z - info: POST /api/department/list 200 441 - 99.830 ms
+2020-01-07T08:19:59.006Z - info: OPTIONS /api/department/update 200 4 - 0.327 ms
+2020-01-07T08:19:59.021Z - info: POST /api/department/update 200 45 - 13.158 ms
+2020-01-07T08:19:59.034Z - info: POST /api/department/list 200 441 - 4.213 ms
+2020-01-07T08:20:05.578Z - info: OPTIONS /api/department/list 200 4 - 0.272 ms
+2020-01-07T08:20:05.636Z - info: POST /api/department/list 200 441 - 6.832 ms
+2020-01-07T08:20:14.839Z - info: OPTIONS /api/department/remove?mid=undefined 200 8 - 0.245 ms
+2020-01-07T08:20:17.025Z - info: GET /api/department/remove?mid=undefined   -  ms
+2020-01-07T08:20:39.355Z - info: OPTIONS /api/department/list 200 4 - 0.452 ms
+2020-01-07T08:20:39.390Z - info: POST /api/department/list 200 441 - 5.767 ms
+2020-01-07T08:20:41.606Z - info: OPTIONS /api/department/remove?did=be419940-b916-4a82-8b55-d20d411d4456 200 8 - 0.276 ms
+2020-01-07T08:20:43.612Z - info: GET /api/department/remove?did=be419940-b916-4a82-8b55-d20d411d4456   -  ms
+2020-01-07T08:21:12.261Z - info: OPTIONS /api/department/list 200 4 - 3.339 ms
+2020-01-07T08:21:12.435Z - info: POST /api/department/list 200 441 - 122.262 ms
+2020-01-07T08:21:14.433Z - info: OPTIONS /api/department/remove?did=be419940-b916-4a82-8b55-d20d411d4456 200 8 - 0.315 ms
+2020-01-07T08:21:14.443Z - info: GET /api/department/remove?did=be419940-b916-4a82-8b55-d20d411d4456 200 46 - 7.319 ms
+2020-01-07T08:21:14.465Z - info: POST /api/department/list 200 258 - 4.027 ms
+2020-01-07T08:21:18.502Z - info: OPTIONS /api/department/list 200 4 - 0.315 ms
+2020-01-07T08:21:18.555Z - info: POST /api/department/list 200 258 - 10.207 ms
+2020-01-07T08:22:08.864Z - info: OPTIONS /api/department/list 200 4 - 0.489 ms
+2020-01-07T08:22:08.888Z - info: POST /api/department/list 200 258 - 5.212 ms
+2020-01-07T08:22:32.705Z - info: OPTIONS /api/department/list 200 4 - 0.257 ms
+2020-01-07T08:22:32.746Z - info: POST /api/department/list 200 258 - 4.912 ms
+2020-01-07T08:22:53.415Z - info: OPTIONS /api/department/list 200 4 - 0.240 ms
+2020-01-07T08:22:53.438Z - info: POST /api/department/list 200 258 - 3.846 ms
+2020-01-07T08:23:00.382Z - info: OPTIONS /api/member/list 200 4 - 0.459 ms
+2020-01-07T08:23:00.408Z - info: POST /api/member/list 200 855 - 5.744 ms
+2020-01-07T08:23:01.904Z - info: OPTIONS /api/department/list 200 4 - 0.249 ms
+2020-01-07T08:23:01.916Z - info: POST /api/department/list 200 258 - 4.207 ms
+2020-01-07T08:23:02.571Z - info: POST /api/member/list 200 855 - 3.888 ms
+2020-01-07T08:23:03.197Z - info: POST /api/department/list 200 258 - 4.851 ms
+2020-01-07T08:23:07.027Z - info: OPTIONS /api/member/list 200 4 - 0.241 ms
+2020-01-07T08:23:07.039Z - info: POST /api/member/list 200 855 - 3.574 ms
+2020-01-07T08:23:55.144Z - info: OPTIONS /api/department/list 200 4 - 0.231 ms
+2020-01-07T08:23:55.153Z - info: POST /api/department/list 200 258 - 3.018 ms
+2020-01-07T08:24:28.297Z - info: OPTIONS /api/member/list 200 4 - 0.251 ms
+2020-01-07T08:24:28.306Z - info: POST /api/member/list 200 855 - 3.892 ms
+2020-01-07T08:24:29.317Z - info: OPTIONS /api/department/list 200 4 - 0.283 ms
+2020-01-07T08:24:29.327Z - info: POST /api/department/list 200 258 - 3.581 ms
+2020-01-07T08:28:29.021Z - info: OPTIONS /api/department/list 200 4 - 2.277 ms
+2020-01-07T08:28:29.119Z - info: POST /api/department/list 200 258 - 85.553 ms
+2020-01-07T08:28:40.283Z - info: OPTIONS /api/department/add 200 4 - 0.393 ms
+2020-01-07T08:28:40.301Z - info: POST /api/department/add 500 36 - 12.255 ms
+2020-01-07T08:31:03.841Z - info: OPTIONS /api/department/list 200 4 - 0.563 ms
+2020-01-07T08:31:03.908Z - info: POST /api/department/list 200 258 - 9.104 ms
+2020-01-07T08:31:06.252Z - info: OPTIONS /api/department/update 200 4 - 0.301 ms
+2020-01-07T08:31:06.269Z - info: POST /api/department/update 200 45 - 8.968 ms
+2020-01-07T08:31:06.282Z - info: POST /api/department/list 200 257 - 5.696 ms
+2020-01-07T08:31:11.407Z - info: POST /api/department/update   -  ms
+2020-01-07T08:31:52.533Z - info: OPTIONS /api/department/list 200 4 - 0.273 ms
+2020-01-07T08:31:52.585Z - info: POST /api/department/list 200 257 - 5.886 ms
+2020-01-07T08:31:56.780Z - info: OPTIONS /api/department/add 200 4 - 0.261 ms
+2020-01-07T08:31:56.786Z - info: POST /api/department/add 200 41 - 1.661 ms
+2020-01-07T08:32:04.299Z - info: OPTIONS /api/department/add 200 4 - 0.341 ms
+2020-01-07T08:32:04.321Z - info: POST /api/department/add 200 236 - 16.872 ms
+2020-01-07T08:32:04.329Z - info: OPTIONS /api/department/list 200 4 - 0.271 ms
+2020-01-07T08:32:04.339Z - info: POST /api/department/list 200 440 - 4.591 ms
+2020-01-07T08:32:14.528Z - info: OPTIONS /api/department/list 200 4 - 0.377 ms
+2020-01-07T08:32:14.575Z - info: POST /api/department/list 200 440 - 9.222 ms
+2020-01-07T08:32:51.994Z - error: uncaughtException: Unexpected token '}' date=Tue Jan 07 2020 16:32:51 GMT+0800 (GMT+08:00), pid=12872, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test1, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test1\server.js], rss=97599488, heapTotal=72069120, heapUsed=52154640, external=2318675, loadavg=[0, 0, 0], uptime=283381, trace=[column=18, file=internal/modules/cjs/loader.js, function=Module._compile, line=895, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=36, file=E:\WebstormProjects\app-backend-test1\server\routes\department.js, function=null, line=4, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=32, file=E:\WebstormProjects\app-backend-test1\server\config\route-config.js, function=Object.routeConfig.init, line=7, method=init, native=false, column=17, file=E:\WebstormProjects\app-backend-test1\server\app.js, function=null, line=40, method=null, native=false, column=3, file=E:\WebstormProjects\app-backend-test1\server\app.js, function=null, line=45, method=null, native=false], stack=[E:\WebstormProjects\app-backend-test1\server\controller\DepartmentController.js:58,             const create_info = await findMember({mid: item.}),                                                             ^, , SyntaxError: Unexpected token '}',     at Module._compile (internal/modules/cjs/loader.js:895:18),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\routes\department.js:4:36),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.routeConfig.init (E:\WebstormProjects\app-backend-test1\server\config\route-config.js:7:32),     at E:\WebstormProjects\app-backend-test1\server\app.js:40:17,     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\app.js:45:3)]
+2020-01-07T08:33:27.562Z - info: OPTIONS /api/department/list 200 4 - 2.627 ms
+2020-01-07T08:33:27.716Z - info: POST /api/department/list 200 440 - 93.267 ms
+2020-01-07T08:33:46.929Z - info: OPTIONS /api/department/remove?did=b8ba735b-f58d-4a89-9809-79366333910d 200 8 - 0.733 ms
+2020-01-07T08:33:46.965Z - info: GET /api/department/remove?did=b8ba735b-f58d-4a89-9809-79366333910d 200 46 - 10.812 ms
+2020-01-07T08:33:46.973Z - info: OPTIONS /api/department/list 200 4 - 0.250 ms
+2020-01-07T08:33:46.984Z - info: POST /api/department/list 200 257 - 8.023 ms
+2020-01-07T08:33:48.343Z - info: OPTIONS /api/department/remove?did=a614fc94-33a5-4af5-affa-f5e26d2b507e 200 8 - 0.470 ms
+2020-01-07T08:33:48.363Z - info: GET /api/department/remove?did=a614fc94-33a5-4af5-affa-f5e26d2b507e 200 46 - 8.308 ms
+2020-01-07T08:33:48.373Z - info: POST /api/department/list 200 69 - 4.187 ms
+2020-01-07T08:33:50.253Z - info: POST /api/department/list 200 69 - 10.136 ms
+2020-01-07T08:34:00.725Z - info: OPTIONS /api/member/list 200 4 - 0.490 ms
+2020-01-07T08:34:00.750Z - info: POST /api/member/list 200 855 - 6.966 ms
+2020-01-07T08:34:17.175Z - info: OPTIONS /api/department/list 200 4 - 0.258 ms
+2020-01-07T08:34:17.190Z - info: POST /api/department/list 200 69 - 5.266 ms
+2020-01-07T08:34:29.843Z - info: OPTIONS /api/department/add 200 4 - 0.289 ms
+2020-01-07T08:34:29.864Z - info: POST /api/department/add 200 311 - 15.948 ms
+2020-01-07T08:34:29.877Z - info: OPTIONS /api/department/list 200 4 - 0.420 ms
+2020-01-07T08:34:29.885Z - info: POST /api/department/list 200 326 - 6.686 ms
+2020-01-07T08:34:31.957Z - info: POST /api/department/list 200 326 - 7.970 ms
+2020-01-07T08:34:40.787Z - info: OPTIONS /api/department/list 200 4 - 0.270 ms
+2020-01-07T08:34:40.869Z - info: POST /api/department/list 200 326 - 48.134 ms
+2020-01-07T08:35:19.814Z - info: OPTIONS /api/department/list 200 4 - 2.650 ms
+2020-01-07T08:35:19.960Z - info: POST /api/department/list 200 326 - 94.305 ms
+2020-01-07T08:35:37.758Z - info: OPTIONS /api/department/list 200 4 - 2.592 ms
+2020-01-07T08:35:37.881Z - info: POST /api/department/list 200 326 - 83.613 ms
+2020-01-07T08:35:59.309Z - info: OPTIONS /api/department/list 200 4 - 2.417 ms
+2020-01-07T08:35:59.575Z - info: POST /api/department/list 200 602 - 213.283 ms
+2020-01-07T08:37:22.311Z - info: OPTIONS /api/department/list 200 4 - 2.556 ms
+2020-01-07T08:37:22.472Z - info: POST /api/department/list 200 326 - 109.872 ms
+2020-01-07T08:38:08.578Z - info: OPTIONS /api/department/list 200 4 - 2.807 ms
+2020-01-07T08:38:08.722Z - info: POST /api/department/list 200 326 - 102.774 ms
+2020-01-07T08:38:49.089Z - info: OPTIONS /api/department/list 200 4 - 2.546 ms
+2020-01-07T08:38:49.220Z - info: POST /api/department/list 200 602 - 99.332 ms
+2020-01-07T08:39:18.103Z - info: OPTIONS /api/department/list 200 4 - 2.771 ms
+2020-01-07T08:39:18.240Z - info: POST /api/department/list 200 604 - 88.438 ms
+2020-01-07T08:40:29.974Z - info: OPTIONS /api/department/list 200 4 - 2.821 ms
+2020-01-07T08:40:30.132Z - info: POST /api/department/list 200 880 - 118.527 ms
+2020-01-07T08:40:53.573Z - info: OPTIONS /api/department/list 200 4 - 21.259 ms
+2020-01-07T08:40:53.651Z - info: POST /api/department/list 200 602 - 68.061 ms
+2020-01-07T08:41:40.537Z - info: OPTIONS /api/department/list 200 4 - 2.878 ms
+2020-01-07T08:41:40.671Z - info: POST /api/department/list 200 326 - 92.795 ms
+2020-01-07T08:42:32.559Z - info: OPTIONS /api/department/list 200 4 - 2.613 ms
+2020-01-07T08:42:32.690Z - info: POST /api/department/list 200 876 - 83.991 ms
+2020-01-07T08:43:49.545Z - info: OPTIONS /api/department/list 200 4 - 0.471 ms
+2020-01-07T08:43:49.594Z - info: POST /api/department/list 200 600 - 10.071 ms
+2020-01-07T08:43:51.533Z - info: POST /api/department/list 200 326 - 7.678 ms
+2020-01-07T08:44:04.535Z - info: OPTIONS /api/department/list 200 4 - 0.286 ms
+2020-01-07T08:44:04.558Z - info: POST /api/department/list 200 600 - 5.342 ms
+2020-01-07T08:45:05.043Z - info: OPTIONS /api/department/list 200 4 - 0.312 ms
+2020-01-07T08:45:05.054Z - info: POST /api/department/list 200 876 - 7.075 ms
+2020-01-07T08:45:51.188Z - info: OPTIONS /api/department/list 200 4 - 0.275 ms
+2020-01-07T08:45:51.204Z - info: POST /api/department/list 200 602 - 8.735 ms
+2020-01-07T08:45:53.554Z - info: POST /api/department/list 200 326 - 6.339 ms
+2020-01-07T08:46:18.271Z - info: OPTIONS /api/department/list 200 4 - 0.257 ms
+2020-01-07T08:46:18.317Z - info: POST /api/department/list 200 600 - 6.889 ms
+2020-01-07T08:46:45.349Z - info: OPTIONS /api/department/list 200 4 - 0.231 ms
+2020-01-07T08:46:45.372Z - info: POST /api/department/list 200 600 - 6.120 ms
+2020-01-07T08:47:30.168Z - info: OPTIONS /api/department/list 200 4 - 0.271 ms
+2020-01-07T08:47:30.210Z - info: POST /api/department/list 200 876 - 8.588 ms
+2020-01-07T08:47:33.068Z - info: POST /api/department/list 200 326 - 7.953 ms
+2020-01-07T08:47:36.308Z - info: OPTIONS /api/department/list 200 4 - 0.307 ms
+2020-01-07T08:47:36.352Z - info: POST /api/department/list 200 600 - 6.221 ms
+2020-01-07T08:48:29.130Z - info: OPTIONS /api/department/list 200 4 - 3.574 ms
+2020-01-07T08:48:29.274Z - info: POST /api/department/list 200 876 - 106.280 ms
+2020-01-07T08:49:06.262Z - info: OPTIONS /api/department/list 200 4 - 0.507 ms
+2020-01-07T08:49:06.320Z - info: POST /api/department/list 200 876 - 13.742 ms
+2020-01-07T08:49:22.513Z - info: OPTIONS /api/department/list 200 4 - 0.295 ms
+2020-01-07T08:49:22.557Z - info: POST /api/department/list 200 602 - 11.888 ms
+2020-01-07T08:49:24.501Z - info: POST /api/department/list 200 600 - 12.283 ms
+2020-01-07T08:49:26.197Z - info: POST /api/department/list 200 600 - 5.758 ms
+2020-01-07T08:49:28.077Z - info: OPTIONS /api/department/list 200 4 - 0.489 ms
+2020-01-07T08:49:28.122Z - info: POST /api/department/list 200 600 - 7.393 ms
+2020-01-07T08:49:52.130Z - info: OPTIONS /api/department/list 200 4 - 0.247 ms
+2020-01-07T08:49:52.177Z - info: POST /api/department/list 200 600 - 9.557 ms
+2020-01-07T08:51:15.800Z - info: OPTIONS /api/department/list 200 4 - 2.240 ms
+2020-01-07T08:51:15.879Z - info: POST /api/department/list 200 326 - 67.850 ms
+2020-01-07T08:51:18.781Z - info: POST /api/department/list 200 326 - 4.731 ms
+2020-01-07T08:52:53.898Z - info: OPTIONS /api/department/list 200 4 - 2.610 ms
+2020-01-07T08:52:55.188Z - info: POST /api/department/list 200 876 - 1254.892 ms
+2020-01-07T08:52:59.457Z - info: OPTIONS /api/department/list 200 4 - 0.535 ms
+2020-01-07T08:53:00.504Z - info: POST /api/department/list 200 876 - 1009.583 ms
+2020-01-07T08:53:55.976Z - info: OPTIONS /api/department/list 200 4 - 2.258 ms
+2020-01-07T08:53:57.074Z - info: POST /api/department/list 200 876 - 1076.959 ms
+2020-01-07T08:54:43.777Z - info: OPTIONS /api/department/list 200 4 - 0.357 ms
+2020-01-07T08:54:44.787Z - info: POST /api/department/list 200 876 - 1007.818 ms
+2020-01-07T08:54:47.234Z - info: POST /api/department/list 200 876 - 1010.195 ms
+2020-01-07T08:54:50.444Z - info: OPTIONS /api/department/update 200 4 - 0.267 ms
+2020-01-07T08:54:52.448Z - info: POST /api/department/update   -  ms
+2020-01-07T08:55:02.323Z - info: OPTIONS /api/department/update 200 4 - 0.355 ms
+2020-01-07T08:55:04.325Z - info: POST /api/department/update   -  ms
+2020-01-07T08:56:38.466Z - info: OPTIONS /api/department/list 200 4 - 0.264 ms
+2020-01-07T08:56:39.490Z - info: POST /api/department/list 200 876 - 1006.163 ms
+2020-01-07T08:56:42.148Z - info: POST /api/department/list 200 876 - 1012.879 ms
+2020-01-07T08:56:46.955Z - info: OPTIONS /api/department/update 200 4 - 0.270 ms
+2020-01-07T08:56:46.963Z - info: POST /api/department/update 200 45 - 4.595 ms
+2020-01-07T08:56:46.980Z - info: OPTIONS /api/department/list 200 4 - 0.253 ms
+2020-01-07T08:56:48.000Z - info: POST /api/department/list 200 877 - 1008.645 ms
+2020-01-07T08:58:47.998Z - info: OPTIONS /api/department/list 200 4 - 0.211 ms
+2020-01-07T08:58:49.023Z - info: POST /api/department/list 200 877 - 1007.877 ms
+2020-01-07T08:58:54.857Z - info: OPTIONS /api/member/list 200 4 - 0.488 ms
+2020-01-07T08:58:54.884Z - info: POST /api/member/list 200 855 - 8.827 ms
+2020-01-07T08:58:56.208Z - info: OPTIONS /api/department/list 200 4 - 0.324 ms
+2020-01-07T08:58:57.223Z - info: POST /api/department/list 200 877 - 1005.862 ms
+2020-01-07T08:58:57.774Z - info: POST /api/member/list 200 855 - 4.921 ms
+2020-01-07T08:59:46.561Z - info: OPTIONS /api/member/list 200 4 - 0.249 ms
+2020-01-07T08:59:46.576Z - info: POST /api/member/list 200 855 - 9.591 ms
+2020-01-07T08:59:48.836Z - info: POST /api/member/list 200 855 - 4.845 ms
+2020-01-07T08:59:50.073Z - info: OPTIONS /api/department/list 200 4 - 0.305 ms
+2020-01-07T08:59:51.090Z - info: POST /api/department/list 200 877 - 1007.795 ms
+2020-01-07T09:00:55.447Z - info: OPTIONS /api/member/list 200 4 - 0.225 ms
+2020-01-07T09:00:55.460Z - info: POST /api/member/list 200 855 - 6.769 ms
+2020-01-07T09:01:14.878Z - info: OPTIONS /api/department/list 200 4 - 0.234 ms
+2020-01-07T09:01:15.900Z - info: POST /api/department/list 200 877 - 1011.998 ms
+2020-01-07T09:01:16.543Z - info: OPTIONS /api/member/list 200 4 - 0.249 ms
+2020-01-07T09:01:16.553Z - info: POST /api/member/list 200 855 - 5.185 ms
+2020-01-07T09:01:18.323Z - info: POST /api/department/list 200 877 - 1006.116 ms
+2020-01-07T09:01:19.432Z - info: POST /api/member/list 200 855 - 4.201 ms
+2020-01-07T09:01:21.589Z - info: OPTIONS /api/department/list 200 4 - 0.247 ms
+2020-01-07T09:01:22.605Z - info: POST /api/department/list 200 877 - 1006.761 ms
+2020-01-07T09:01:28.624Z - info: OPTIONS /api/member/list 200 4 - 0.256 ms
+2020-01-07T09:01:28.634Z - info: POST /api/member/list 200 855 - 4.765 ms
+2020-01-07T09:05:26.932Z - info: OPTIONS /api/member/list 200 4 - 2.575 ms
+2020-01-07T09:05:27.111Z - info: POST /api/member/list 200 855 - 105.994 ms
+2020-01-07T09:05:31.411Z - info: OPTIONS /api/member/update 200 4 - 0.458 ms
+2020-01-07T09:05:31.419Z - info: POST /api/member/update 200 56 - 4.296 ms
+2020-01-07T09:05:39.352Z - info: OPTIONS /api/department/list 200 4 - 0.372 ms
+2020-01-07T09:05:40.367Z - info: POST /api/department/list 200 877 - 1010.411 ms
+2020-01-07T09:05:44.194Z - info: OPTIONS /api/member/list 200 4 - 0.527 ms
+2020-01-07T09:05:44.205Z - info: POST /api/member/list 200 855 - 5.393 ms
+2020-01-07T09:05:47.905Z - info: OPTIONS /api/member/update 200 4 - 0.485 ms
+2020-01-07T09:05:47.921Z - info: POST /api/member/update 200 45 - 11.991 ms
+2020-01-07T09:05:47.940Z - info: POST /api/member/list 200 857 - 4.962 ms
+2020-01-07T09:06:52.297Z - info: OPTIONS /api/member/list 200 4 - 3.257 ms
+2020-01-07T09:06:52.451Z - info: POST /api/member/list 200 857 - 97.583 ms
+2020-01-07T09:09:04.873Z - info: OPTIONS /api/member/list 200 4 - 0.541 ms
+2020-01-07T09:09:04.911Z - info: POST /api/member/list 200 857 - 6.673 ms
+2020-01-07T09:15:45.156Z - info: OPTIONS /api/member/list 200 4 - 2.729 ms
+2020-01-07T09:15:45.261Z - info: POST /api/member/list 200 857 - 84.271 ms
+2020-01-07T09:15:47.772Z - info: POST /api/member/list 200 857 - 11.868 ms
+2020-01-07T09:15:53.222Z - info: OPTIONS /api/member/list 200 4 - 0.310 ms
+2020-01-07T09:15:53.278Z - info: POST /api/member/list 200 857 - 7.995 ms
+2020-01-07T09:17:45.453Z - info: OPTIONS /api/member/list 200 4 - 0.303 ms
+2020-01-07T09:17:45.485Z - info: POST /api/member/list 200 857 - 3.591 ms
+2020-01-07T09:17:53.249Z - info: OPTIONS /api/member/list 200 4 - 0.310 ms
+2020-01-07T09:17:53.305Z - info: POST /api/member/list 200 857 - 4.930 ms
+2020-01-07T09:18:31.056Z - info: OPTIONS /api/member/list 200 4 - 0.409 ms
+2020-01-07T09:18:31.058Z - info: OPTIONS /api/department/listAll 200 4 - 0.384 ms
+2020-01-07T09:18:31.109Z - info: POST /api/member/list 200 857 - 12.218 ms
+2020-01-07T09:18:31.124Z - info: POST /api/department/listAll 200 305 - 5.146 ms
+2020-01-07T09:19:01.679Z - info: OPTIONS /api/member/list 200 4 - 0.335 ms
+2020-01-07T09:19:01.681Z - info: OPTIONS /api/department/listAll 200 4 - 0.242 ms
+2020-01-07T09:19:01.711Z - info: POST /api/department/listAll 200 305 - 4.070 ms
+2020-01-07T09:19:01.713Z - info: POST /api/member/list 200 857 - 9.255 ms
+2020-01-07T09:19:05.365Z - info: POST /api/department/listAll 200 305 - 4.700 ms
+2020-01-07T09:19:05.368Z - info: POST /api/member/list 200 857 - 10.519 ms
+2020-01-07T09:19:09.807Z - info: OPTIONS /api/member/list 200 4 - 0.222 ms
+2020-01-07T09:19:09.809Z - info: OPTIONS /api/department/listAll 200 4 - 0.376 ms
+2020-01-07T09:19:09.870Z - info: POST /api/department/listAll 200 305 - 3.175 ms
+2020-01-07T09:19:09.880Z - info: POST /api/member/list 200 857 - 13.476 ms
+2020-01-07T09:19:27.739Z - info: OPTIONS /api/member/list 200 4 - 0.291 ms
+2020-01-07T09:19:27.742Z - info: OPTIONS /api/department/listAll 200 4 - 0.238 ms
+2020-01-07T09:19:27.811Z - info: POST /api/department/listAll 200 305 - 3.091 ms
+2020-01-07T09:19:27.818Z - info: POST /api/member/list 200 857 - 10.778 ms
+2020-01-07T09:20:05.750Z - info: OPTIONS /api/member/list 200 4 - 0.276 ms
+2020-01-07T09:20:05.775Z - info: POST /api/member/list 200 857 - 4.148 ms
+2020-01-07T09:20:57.714Z - info: OPTIONS /api/member/list 200 4 - 0.259 ms
+2020-01-07T09:20:57.721Z - info: POST /api/member/list 200 857 - 4.141 ms
+2020-01-07T09:21:03.315Z - info: OPTIONS /api/member/list 200 4 - 0.365 ms
+2020-01-07T09:21:03.317Z - info: OPTIONS /api/department/listAll 200 4 - 0.234 ms
+2020-01-07T09:21:03.380Z - info: POST /api/department/listAll 200 305 - 22.185 ms
+2020-01-07T09:21:03.385Z - info: POST /api/member/list 200 857 - 30.813 ms
+2020-01-07T09:22:12.992Z - info: OPTIONS /api/member/list 200 4 - 0.388 ms
+2020-01-07T09:22:13.028Z - info: POST /api/member/list 200 857 - 6.327 ms
+2020-01-07T09:22:38.041Z - info: OPTIONS /api/member/list 200 4 - 0.343 ms
+2020-01-07T09:22:38.057Z - info: POST /api/member/list 200 857 - 6.881 ms
+2020-01-07T09:22:41.354Z - info: OPTIONS /api/department/listAll 200 4 - 0.246 ms
+2020-01-07T09:22:41.357Z - info: POST /api/member/list 200 857 - 6.351 ms
+2020-01-07T09:22:41.513Z - info: POST /api/department/listAll 200 305 - 3.690 ms
+2020-01-07T09:23:17.321Z - info: OPTIONS /api/member/list 200 4 - 0.399 ms
+2020-01-07T09:23:17.323Z - info: OPTIONS /api/department/listAll 200 4 - 0.224 ms
+2020-01-07T09:23:17.381Z - info: POST /api/department/listAll 200 305 - 5.126 ms
+2020-01-07T09:23:17.384Z - info: POST /api/member/list 200 857 - 12.422 ms
+2020-01-07T09:23:23.857Z - info: OPTIONS /api/member/list 200 4 - 0.275 ms
+2020-01-07T09:23:23.871Z - info: POST /api/member/list 200 69 - 10.646 ms
+2020-01-07T09:23:28.183Z - info: OPTIONS /api/department/listAll 200 4 - 0.258 ms
+2020-01-07T09:23:28.186Z - info: POST /api/member/list 200 857 - 6.949 ms
+2020-01-07T09:23:28.337Z - info: POST /api/department/listAll 200 305 - 2.829 ms
+2020-01-07T09:23:38.505Z - info: OPTIONS /api/department/list 200 4 - 0.263 ms
+2020-01-07T09:23:39.524Z - info: POST /api/department/list 200 881 - 1010.827 ms
+2020-01-07T09:23:46.283Z - info: OPTIONS /api/department/add 200 4 - 0.261 ms
+2020-01-07T09:23:46.301Z - info: POST /api/department/add 200 243 - 16.186 ms
+2020-01-07T09:23:46.315Z - info: OPTIONS /api/department/list 200 4 - 0.240 ms
+2020-01-07T09:23:47.351Z - info: POST /api/department/list 200  - 1009.861 ms
+2020-01-07T09:23:53.467Z - info: OPTIONS /api/department/list 200 4 - 0.274 ms
+2020-01-07T09:23:53.469Z - info: OPTIONS /api/department/listAll 200 4 - 0.208 ms
+2020-01-07T09:23:53.519Z - info: POST /api/department/listAll 200 495 - 6.875 ms
+2020-01-07T09:23:54.531Z - info: POST /api/department/list 200  - 1015.620 ms
+2020-01-07T09:23:58.242Z - info: OPTIONS /api/member/list 200 4 - 0.328 ms
+2020-01-07T09:23:58.268Z - info: POST /api/member/list 200 857 - 8.155 ms
+2020-01-07T09:23:59.804Z - info: OPTIONS /api/department/listAll 200 4 - 0.232 ms
+2020-01-07T09:23:59.807Z - info: POST /api/member/list 200 857 - 5.903 ms
+2020-01-07T09:23:59.956Z - info: POST /api/department/listAll 200 495 - 15.949 ms
+2020-01-07T09:24:01.383Z - info: POST /api/member/list 200 69 - 4.776 ms
+2020-01-07T09:25:48.014Z - info: OPTIONS /api/member/list 200 4 - 0.212 ms
+2020-01-07T09:25:48.016Z - info: OPTIONS /api/department/listAll 200 4 - 0.234 ms
+2020-01-07T09:25:48.080Z - info: POST /api/department/listAll 200 495 - 23.668 ms
+2020-01-07T09:25:48.085Z - info: POST /api/member/list 200 857 - 31.346 ms
+2020-01-07T09:25:53.903Z - info: OPTIONS /api/member/list 200 4 - 0.206 ms
+2020-01-07T09:25:53.906Z - info: OPTIONS /api/department/listAll 200 4 - 0.247 ms
+2020-01-07T09:25:53.976Z - info: POST /api/department/listAll 200 495 - 5.190 ms
+2020-01-07T09:25:53.979Z - info: POST /api/member/list 200 857 - 13.686 ms
+2020-01-07T09:25:55.186Z - info: POST /api/member/list 200 857 - 3.993 ms
+2020-01-07T09:26:09.856Z - info: OPTIONS /api/member/list 200 4 - 0.294 ms
+2020-01-07T09:26:09.858Z - info: OPTIONS /api/department/listAll 200 4 - 0.193 ms
+2020-01-07T09:26:09.922Z - info: POST /api/department/listAll 200 495 - 2.585 ms
+2020-01-07T09:26:09.925Z - info: POST /api/member/list 200 857 - 7.876 ms
+2020-01-07T09:26:38.693Z - info: OPTIONS /api/member/list 200 4 - 0.326 ms
+2020-01-07T09:26:38.695Z - info: OPTIONS /api/department/listAll 200 4 - 0.269 ms
+2020-01-07T09:26:38.749Z - info: POST /api/department/listAll 200 495 - 1.996 ms
+2020-01-07T09:26:38.754Z - info: POST /api/member/list 200 857 - 11.750 ms
+2020-01-07T09:28:07.546Z - info: OPTIONS /api/member/list 200 4 - 0.204 ms
+2020-01-07T09:28:07.548Z - info: OPTIONS /api/department/listAll 200 4 - 0.249 ms
+2020-01-07T09:28:07.613Z - info: POST /api/department/listAll 200 495 - 5.348 ms
+2020-01-07T09:28:07.620Z - info: POST /api/member/list 200 857 - 14.547 ms
+2020-01-07T09:28:09.210Z - info: POST /api/member/list 200 335 - 4.693 ms
+2020-01-07T09:28:11.680Z - info: POST /api/member/list 200 332 - 4.193 ms
+2020-01-07T09:28:32.096Z - info: OPTIONS /api/member/list 200 4 - 0.250 ms
+2020-01-07T09:28:32.107Z - info: POST /api/member/list 200 332 - 5.385 ms
+2020-01-07T09:29:16.068Z - info: OPTIONS /api/member/list 200 4 - 0.341 ms
+2020-01-07T09:29:16.070Z - info: OPTIONS /api/department/listAll 200 4 - 0.204 ms
+2020-01-07T09:29:16.132Z - info: POST /api/department/listAll 200 495 - 4.695 ms
+2020-01-07T09:29:16.135Z - info: POST /api/member/list 200 857 - 10.767 ms
+2020-01-07T09:29:19.706Z - info: POST /api/member/list 200 69 - 4.508 ms
+2020-01-07T09:30:00.191Z - info: OPTIONS /api/member/list 200 4 - 0.407 ms
+2020-01-07T09:30:00.194Z - info: OPTIONS /api/department/listAll 200 4 - 0.216 ms
+2020-01-07T09:30:00.271Z - info: POST /api/department/listAll 200 495 - 10.461 ms
+2020-01-07T09:30:00.277Z - info: POST /api/member/list 200 857 - 18.496 ms
+2020-01-07T09:30:01.553Z - info: POST /api/member/list 200 332 - 4.268 ms
+2020-01-07T09:30:33.951Z - info: OPTIONS /api/department/list 200 4 - 0.225 ms
+2020-01-07T09:30:34.981Z - info: POST /api/department/list 200  - 1016.980 ms
+2020-01-07T09:30:49.564Z - info: OPTIONS /api/department/list 200 4 - 0.238 ms
+2020-01-07T09:30:49.566Z - info: OPTIONS /api/department/listAll 200 4 - 0.213 ms
+2020-01-07T09:30:49.609Z - info: POST /api/department/listAll 200 495 - 7.528 ms
+2020-01-07T09:30:50.624Z - info: POST /api/department/list 200  - 1020.488 ms
+2020-01-07T09:30:52.380Z - info: OPTIONS /api/member/list 200 4 - 0.219 ms
+2020-01-07T09:30:52.416Z - info: POST /api/member/list 200 857 - 17.715 ms
+2020-01-07T09:31:05.903Z - info: OPTIONS /api/member/list 200 4 - 0.248 ms
+2020-01-07T09:31:05.905Z - info: OPTIONS /api/department/listAll 200 4 - 0.252 ms
+2020-01-07T09:31:05.982Z - info: POST /api/department/listAll 200 495 - 6.595 ms
+2020-01-07T09:31:05.986Z - info: POST /api/member/list 200 857 - 11.974 ms
+2020-01-07T09:31:36.098Z - info: OPTIONS /api/member/list 200 4 - 0.251 ms
+2020-01-07T09:31:36.100Z - info: OPTIONS /api/department/listAll 200 4 - 0.201 ms
+2020-01-07T09:31:36.148Z - info: POST /api/department/listAll 200 495 - 2.641 ms
+2020-01-07T09:31:36.151Z - info: POST /api/member/list 200 857 - 13.138 ms
+2020-01-07T09:31:37.827Z - info: POST /api/member/list 200 335 - 4.969 ms
+2020-01-07T09:31:43.295Z - info: OPTIONS /api/member/list 200 4 - 0.220 ms
+2020-01-07T09:31:43.304Z - info: POST /api/member/list 200 332 - 4.425 ms
+2020-01-07T09:31:47.233Z - info: OPTIONS /api/department/listAll 200 4 - 0.237 ms
+2020-01-07T09:31:47.236Z - info: POST /api/member/list 200 857 - 6.716 ms
+2020-01-07T09:31:47.375Z - info: POST /api/department/listAll 200 495 - 4.540 ms
+2020-01-07T09:33:13.225Z - info: OPTIONS /api/member/list 200 4 - 0.190 ms
+2020-01-07T09:33:13.249Z - info: POST /api/member/list 200 857 - 4.157 ms
+2020-01-07T09:33:32.902Z - info: OPTIONS /api/member/list 200 4 - 0.189 ms
+2020-01-07T09:33:32.909Z - info: POST /api/member/list 200 857 - 2.822 ms
+2020-01-07T09:34:15.913Z - info: OPTIONS /api/member/list 200 4 - 0.302 ms
+2020-01-07T09:34:15.924Z - info: POST /api/member/list 200 857 - 5.319 ms
+2020-01-07T09:34:50.534Z - info: OPTIONS /api/member/update 200 4 - 0.256 ms
+2020-01-07T09:34:50.548Z - info: POST /api/member/update 200 45 - 9.076 ms
+2020-01-07T09:34:50.567Z - info: OPTIONS /api/member/list 200 4 - 0.202 ms
+2020-01-07T09:34:50.578Z - info: POST /api/member/list 200 858 - 4.713 ms
+2020-01-07T09:34:54.311Z - info: OPTIONS /api/department/listAll 200 4 - 0.494 ms
+2020-01-07T09:34:54.314Z - info: POST /api/member/list 200 858 - 6.215 ms
+2020-01-07T09:34:54.452Z - info: POST /api/department/listAll 200 495 - 2.165 ms
+2020-01-07T09:34:55.595Z - info: OPTIONS /api/department/list 200 4 - 0.236 ms
+2020-01-07T09:34:56.618Z - info: POST /api/department/list 200  - 1012.842 ms
+2020-01-07T09:34:57.795Z - info: OPTIONS /api/member/list 200 4 - 0.204 ms
+2020-01-07T09:34:57.805Z - info: POST /api/member/list 200 858 - 4.651 ms
+2020-01-07T09:34:59.846Z - info: POST /api/department/list 200  - 1009.837 ms
+2020-01-07T09:35:08.542Z - info: OPTIONS /api/department/remove?did=2c613c01-e78c-44e3-8b2e-7e3b67d7692c 200 8 - 0.210 ms
+2020-01-07T09:35:08.553Z - info: GET /api/department/remove?did=2c613c01-e78c-44e3-8b2e-7e3b67d7692c 200 46 - 8.349 ms
+2020-01-07T09:35:08.566Z - info: OPTIONS /api/department/list 200 4 - 0.272 ms
+2020-01-07T09:35:09.575Z - info: POST /api/department/list 200 881 - 1005.588 ms
+2020-01-07T09:35:10.970Z - info: OPTIONS /api/department/listAll 200 4 - 0.209 ms
+2020-01-07T09:35:11.010Z - info: POST /api/department/listAll 200 305 - 4.631 ms
+2020-01-07T09:35:11.976Z - info: POST /api/department/list 200 881 - 1008.356 ms
+2020-01-07T09:35:43.077Z - info: OPTIONS /api/department/list 200 4 - 0.390 ms
+2020-01-07T09:35:43.079Z - info: OPTIONS /api/department/listAll 200 4 - 0.210 ms
+2020-01-07T09:35:43.105Z - info: POST /api/department/listAll 200 305 - 2.483 ms
+2020-01-07T09:35:44.113Z - info: POST /api/department/list 200 881 - 1011.703 ms
+2020-01-07T09:35:45.361Z - info: OPTIONS /api/member/list 200 4 - 0.206 ms
+2020-01-07T09:35:45.383Z - info: POST /api/member/list 200 858 - 4.981 ms
+2020-01-07T09:36:21.921Z - info: OPTIONS /api/department/list 200 4 - 0.226 ms
+2020-01-07T09:36:22.937Z - info: POST /api/department/list 200 881 - 1010.595 ms
+2020-01-07T09:36:44.374Z - info: OPTIONS /api/member/list 200 4 - 1.118 ms
+2020-01-07T09:36:44.385Z - info: POST /api/member/list 200 858 - 6.981 ms
+2020-01-07T09:49:28.259Z - info: OPTIONS /api/member/list 200 4 - 0.317 ms
+2020-01-07T09:49:28.262Z - info: OPTIONS /api/department/listAll 200 4 - 0.939 ms
+2020-01-07T09:49:28.305Z - info: POST /api/department/listAll 200 305 - 3.163 ms
+2020-01-07T09:49:28.308Z - info: POST /api/member/list 200 858 - 19.320 ms

@@ -1,0 +1,84 @@
+2020-01-08T06:57:28.149Z - error: register error: 无效的类型 integer 输入语法: "冻结"
+    at Connection.parseE (E:\WebstormProjects\app-backend-test1\node_modules\pg\lib\connection.js:604:13)
+    at Connection.parseMessage (E:\WebstormProjects\app-backend-test1\node_modules\pg\lib\connection.js:403:19)
+    at Socket.<anonymous> (E:\WebstormProjects\app-backend-test1\node_modules\pg\lib\connection.js:123:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 173,
+  severity: '错误',
+  code: '22P02',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'd:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\numutils.c',
+  line: '259',
+  routine: 'pg_strtoint32'
+} filePath=E:\WebstormProjects\app-backend-test1\server\controller\DepartmentController.js, lineNumber=26
+2020-01-08T08:07:41.103Z - error: register error: 关系 "department" 的 "create_info" 字段不存在
+    at Connection.parseE (E:\WebstormProjects\app-backend-test1\node_modules\pg\lib\connection.js:604:13)
+    at Connection.parseMessage (E:\WebstormProjects\app-backend-test1\node_modules\pg\lib\connection.js:403:19)
+    at Socket.<anonymous> (E:\WebstormProjects\app-backend-test1\node_modules\pg\lib\connection.js:123:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 191,
+  severity: '错误',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '27',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'd:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_target.c',
+  line: '1034',
+  routine: 'checkInsertTargets'
+} filePath=E:\WebstormProjects\app-backend-test1\server\controller\DepartmentController.js, lineNumber=26
+2020-01-08T08:07:51.800Z - error: register error: 关系 "department" 的 "create_info" 字段不存在
+    at Connection.parseE (E:\WebstormProjects\app-backend-test1\node_modules\pg\lib\connection.js:604:13)
+    at Connection.parseMessage (E:\WebstormProjects\app-backend-test1\node_modules\pg\lib\connection.js:403:19)
+    at Socket.<anonymous> (E:\WebstormProjects\app-backend-test1\node_modules\pg\lib\connection.js:123:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 191,
+  severity: '错误',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '27',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'd:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_target.c',
+  line: '1034',
+  routine: 'checkInsertTargets'
+} filePath=E:\WebstormProjects\app-backend-test1\server\controller\DepartmentController.js, lineNumber=26
