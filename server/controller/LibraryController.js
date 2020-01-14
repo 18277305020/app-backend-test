@@ -37,7 +37,7 @@ const create = async (req, res) => {
     for (let n = 0; 0 < files.length - 1; n++) {
         let obj = xlsx.parse(path.join(__dirname, `../../LibraryFile/${files[n]}`));
         let list = obj[0].data
-        let type = obj[0].type
+        let type = obj[0].name
         for (let i = 1; i < list.length; i++) {
             let score = list[i][3] === '有' ? 1 : 0
             let accompany = list[i][4] === '有' ? 1 : 0
