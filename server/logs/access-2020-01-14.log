@@ -210,3 +210,69 @@
 2020-01-14T13:26:45.082Z - info: POST /api/library/findSone 200  - 10.891 ms
 2020-01-14T13:26:54.846Z - info: OPTIONS /api/library/list 200 4 - 0.430 ms
 2020-01-14T13:26:55.010Z - info: POST /api/library/list 200  - 155.475 ms
+2020-01-14T13:33:54.643Z - info: OPTIONS /api/library/list 200 4 - 2.115 ms
+2020-01-14T13:33:54.826Z - info: POST /api/library/list 200  - 167.985 ms
+2020-01-14T13:34:11.600Z - info: OPTIONS /api/library/list 200 4 - 0.463 ms
+2020-01-14T13:34:11.733Z - info: POST /api/library/list 200  - 122.401 ms
+2020-01-14T13:34:27.283Z - info: OPTIONS /api/library/list 200 4 - 1.213 ms
+2020-01-14T13:34:27.433Z - info: POST /api/library/list 200  - 133.613 ms
+2020-01-14T13:34:46.199Z - info: OPTIONS /api/library/list 200 4 - 0.339 ms
+2020-01-14T13:34:46.322Z - info: POST /api/library/list 200  - 119.209 ms
+2020-01-14T13:35:24.857Z - info: OPTIONS /api/library/list 200 4 - 0.269 ms
+2020-01-14T13:35:24.992Z - info: POST /api/library/list 200  - 129.772 ms
+2020-01-14T13:35:44.408Z - info: OPTIONS /api/library/list 200 4 - 0.280 ms
+2020-01-14T13:35:44.519Z - info: POST /api/library/list 200  - 107.691 ms
+2020-01-14T13:36:09.899Z - info: OPTIONS /api/library/list 200 4 - 0.364 ms
+2020-01-14T13:36:10.050Z - info: POST /api/library/list 200  - 143.004 ms
+2020-01-14T13:36:19.787Z - info: OPTIONS /api/library/list 200 4 - 0.439 ms
+2020-01-14T13:36:19.963Z - info: POST /api/library/list 200  - 172.729 ms
+2020-01-14T13:36:39.218Z - info: OPTIONS /api/library/list 200 4 - 0.249 ms
+2020-01-14T13:36:39.328Z - info: POST /api/library/list 200  - 107.796 ms
+2020-01-14T13:36:59.062Z - info: OPTIONS /api/library/list 200 4 - 0.285 ms
+2020-01-14T13:36:59.234Z - info: POST /api/library/list 200  - 165.683 ms
+2020-01-14T13:37:18.969Z - info: OPTIONS /api/library/list 200 4 - 0.329 ms
+2020-01-14T13:37:19.118Z - info: POST /api/library/list 200  - 146.730 ms
+2020-01-14T13:46:21.712Z - info: OPTIONS /api/library/list 200 4 - 4.960 ms
+2020-01-14T13:46:21.932Z - info: POST /api/library/list 200  - 205.235 ms
+2020-01-14T13:47:11.534Z - info: OPTIONS /api/library/list 200 4 - 0.340 ms
+2020-01-14T13:47:11.639Z - info: POST /api/library/list 200  - 99.299 ms
+2020-01-14T13:47:16.081Z - info: POST /api/library/list 200  - 126.599 ms
+2020-01-14T13:47:18.656Z - info: OPTIONS /api/library/add 200 4 - 2.987 ms
+2020-01-14T13:47:18.701Z - info: POST /api/library/add 200 39 - 41.554 ms
+2020-01-14T13:47:59.909Z - info: OPTIONS /api/library/list 200 4 - 0.417 ms
+2020-01-14T13:48:00.066Z - info: POST /api/library/list 200  - 151.754 ms
+2020-01-14T13:48:10.127Z - info: OPTIONS /api/library/add 200 4 - 0.496 ms
+2020-01-14T13:48:10.164Z - info: POST /api/library/add 200 39 - 31.769 ms
+2020-01-14T13:48:12.604Z - info: OPTIONS /api/library/list 200 4 - 0.478 ms
+2020-01-14T13:48:12.746Z - info: POST /api/library/list 200  - 133.519 ms
+2020-01-14T13:48:24.842Z - info: OPTIONS /api/library/list 200 4 - 0.366 ms
+2020-01-14T13:48:25.010Z - info: POST /api/library/list 200  - 149.553 ms
+2020-01-14T13:48:33.602Z - info: OPTIONS /api/library/add 200 4 - 0.584 ms
+2020-01-14T13:48:33.634Z - info: POST /api/library/add 200 39 - 29.919 ms
+2020-01-14T13:48:35.767Z - info: OPTIONS /api/library/list 200 4 - 0.269 ms
+2020-01-14T13:48:35.901Z - info: POST /api/library/list 200  - 131.393 ms
+2020-01-14T13:48:53.393Z - info: OPTIONS /api/library/add 200 4 - 0.409 ms
+2020-01-14T13:48:53.430Z - info: POST /api/library/add 200 39 - 33.625 ms
+2020-01-14T13:48:55.965Z - info: OPTIONS /api/library/list 200 4 - 0.258 ms
+2020-01-14T13:48:56.104Z - info: POST /api/library/list 200  - 137.106 ms
+2020-01-14T13:49:33.959Z - info: OPTIONS /api/library/list 200 4 - 0.275 ms
+2020-01-14T13:49:34.094Z - info: POST /api/library/list 200  - 128.723 ms
+2020-01-14T13:49:44.916Z - info: OPTIONS /api/library/list 200 4 - 0.253 ms
+2020-01-14T13:49:45.142Z - info: POST /api/library/list 200  - 188.853 ms
+2020-01-14T13:49:50.227Z - info: OPTIONS /api/library/add 200 4 - 0.384 ms
+2020-01-14T13:49:50.260Z - info: POST /api/library/add 200 39 - 29.110 ms
+2020-01-14T13:50:00.597Z - info: OPTIONS /api/library/list 200 4 - 0.277 ms
+2020-01-14T13:50:00.721Z - info: POST /api/library/list 200  - 114.830 ms
+2020-01-14T13:50:05.133Z - info: OPTIONS /api/library/add 200 4 - 0.322 ms
+2020-01-14T13:50:05.165Z - info: POST /api/library/add 200 39 - 29.821 ms
+2020-01-14T13:50:23.948Z - info: OPTIONS /api/library/list 200 4 - 0.439 ms
+2020-01-14T13:50:24.073Z - info: POST /api/library/list 200  - 120.609 ms
+2020-01-14T13:51:09.101Z - info: OPTIONS /api/library/list 200 4 - 0.275 ms
+2020-01-14T13:51:09.214Z - info: POST /api/library/list 200  - 109.560 ms
+2020-01-14T13:51:18.816Z - info: OPTIONS /api/library/list 200 4 - 0.299 ms
+2020-01-14T13:51:18.942Z - info: POST /api/library/list 200  - 122.413 ms
+2020-01-14T13:51:23.638Z - info: OPTIONS /api/library/add 200 4 - 0.347 ms
+2020-01-14T13:51:23.670Z - info: POST /api/library/add 200 39 - 29.392 ms
+2020-01-14T13:51:25.949Z - info: POST /api/library/add 200 39 - 31.879 ms
+2020-01-14T13:51:28.303Z - info: OPTIONS /api/library/list 200 4 - 0.251 ms
+2020-01-14T13:51:28.438Z - info: POST /api/library/list 200  - 130.750 ms

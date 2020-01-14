@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const {getAll, create, createSone, findSone} = require('../controller/LibraryController');
+const {getAll, create, createSone, findSone, add} = require('../controller/LibraryController');
 
 router.post("/list", getAll)
 
@@ -11,6 +11,8 @@ router.get("/create", create)
 router.get('/createSong', createSone)
 
 router.post('/findSone', findSone)
+
+router.post('/add', add)
 
 
 module.exports = router;

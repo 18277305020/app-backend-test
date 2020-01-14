@@ -1,5 +1,5 @@
 const Logger = require("../lib/Logger");
-const {findAllLibrary, getTotal, createLibrary, createSinger, findSinger} = require("../model/LibraryModel");
+const {findAllLibrary, getTotal, createLibrary, createSinger, findSinger, addIncrease} = require("../model/LibraryModel");
 const {findLibrary} = require("../model/LibraryModel");
 const fs = require('fs')
 const path = require("path");
@@ -7,7 +7,7 @@ const xlsx = require('node-xlsx')
 
 //查询（分页）
 const getAll = async (req, res) => {
-     let params = {...req.body}
+    let params = {...req.body}
     // let {size, page, ...params} = req.body
     // if (!size) size = 10
     // if (!page) page = 1
@@ -100,10 +100,22 @@ const findSone = async (req, res) => {
     });
 }
 
+//添加选择
+const add = async (req, res) => {
+    let params = {...req.body}
+    let data = await addIncrease(params)
+    return res.status(200).json({
+        data: data,
+        message: "success",
+        code: 0
+    });
+}
+
 
 module.exports = {
     getAll,
     create,
     createSone,
-    findSone
+    findSone,
+    add
 };

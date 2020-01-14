@@ -33,6 +33,14 @@ const total = (table, params) => {
     return knex(table).where(params).count();
 }
 
+function increase(table, condition, key) {
+    return knex(table).where(condition).increment(key, 1)
+}
+
+function decrease(table, condition, key) {
+    return knex(table).where(condition).decrement(key, 1)
+}
+
 
 module.exports = {
     all,
@@ -40,5 +48,7 @@ module.exports = {
     create,
     del,
     edit,
-    total
+    total,
+    increase,
+    decrease
 }
