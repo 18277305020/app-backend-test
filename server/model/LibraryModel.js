@@ -31,12 +31,25 @@ const getTotal = async params => {
     return await total(table, params);
 }
 
+//TODO 创建歌手
+const createSinger = async params => {
+    return await create('singer', params);
+}
+
+//TODO 歌手列表
+const findSinger = async params => {
+    return await find('singer', params);
+}
+
+
 module.exports = {
     findAllLibrary,
     findLibrary,
     createLibrary,
     delLibrary,
     editLibrary,
-    getTotal
+    getTotal,
+    createSinger,
+    findSinger
 };
 

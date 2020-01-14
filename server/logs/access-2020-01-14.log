@@ -55,3 +55,158 @@
 2020-01-14T07:00:59.296Z - info: GET /api/library/create   -  ms
 2020-01-14T07:02:57.596Z - info: GET /api/library/create   -  ms
 2020-01-14T07:13:46.332Z - info: POST /api/library/list 200  - 163.393 ms
+2020-01-14T09:32:35.490Z - info: GET /api/library/create 200 35 - 2.325 ms
+2020-01-14T09:32:49.165Z - info: GET /api/library/create 200 35 - 0.821 ms
+2020-01-14T09:35:36.281Z - info: GET /api/library/create   -  ms
+2020-01-14T12:23:14.984Z - info: GET /api/library/createSong 404 55 - 6.868 ms
+2020-01-14T12:23:20.735Z - info: POST /api/library/createSong 404 55 - 6.443 ms
+2020-01-14T12:23:40.283Z - info: GET /api/library/createSong 404 55 - 8.779 ms
+2020-01-14T12:24:28.393Z - info: GET /api/library/createSong 404 55 - 20.336 ms
+2020-01-14T12:25:08.062Z - info: GET /api/library/createSong 404 55 - 8.466 ms
+2020-01-14T12:25:10.886Z - info: GET /api/library/createSong 404 55 - 18.324 ms
+2020-01-14T12:47:29.407Z - info: GET /api/library/createSong   -  ms
+2020-01-14T12:48:17.955Z - error: uncaughtException: Identifier 'createSone' has already been declared date=Tue Jan 14 2020 20:48:17 GMT+0800 (GMT+08:00), pid=12068, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test1, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test1\server.js], rss=98594816, heapTotal=73904128, heapUsed=48926192, external=1915859, loadavg=[0, 0, 0], uptime=28519, trace=[column=18, file=internal/modules/cjs/loader.js, function=Module._compile, line=895, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=37, file=E:\WebstormProjects\app-backend-test1\server\routes\library.js, function=null, line=4, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=29, file=E:\WebstormProjects\app-backend-test1\server\config\route-config.js, function=Object.routeConfig.init, line=8, method=init, native=false, column=17, file=E:\WebstormProjects\app-backend-test1\server\app.js, function=null, line=40, method=null, native=false, column=3, file=E:\WebstormProjects\app-backend-test1\server\app.js, function=null, line=45, method=null, native=false], stack=[E:\WebstormProjects\app-backend-test1\server\controller\LibraryController.js:94, const createSone = async (req, res) => {,       ^, , SyntaxError: Identifier 'createSone' has already been declared,     at Module._compile (internal/modules/cjs/loader.js:895:18),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\routes\library.js:4:37),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.routeConfig.init (E:\WebstormProjects\app-backend-test1\server\config\route-config.js:8:29),     at E:\WebstormProjects\app-backend-test1\server\app.js:40:17,     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\app.js:45:3)]
+2020-01-14T12:48:51.488Z - error: uncaughtException: Identifier 'createList' has already been declared date=Tue Jan 14 2020 20:48:51 GMT+0800 (GMT+08:00), pid=9692, uid=null, gid=null, cwd=E:\WebstormProjects\app-backend-test1, execPath=C:\Program Files\nodejs\node.exe, version=v12.13.1, argv=[C:\Program Files\nodejs\node.exe, E:\WebstormProjects\app-backend-test1\server.js], rss=97439744, heapTotal=72069120, heapUsed=52277232, external=2323241, loadavg=[0, 0, 0], uptime=28552, trace=[column=18, file=internal/modules/cjs/loader.js, function=Module._compile, line=895, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=50, file=E:\WebstormProjects\app-backend-test1\server\routes\library.js, function=null, line=4, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=959, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=995, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=815, method=load, native=false, column=14, file=internal/modules/cjs/loader.js, function=Module._load, line=727, method=_load, native=false, column=19, file=internal/modules/cjs/loader.js, function=Module.require, line=852, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=74, method=null, native=false, column=29, file=E:\WebstormProjects\app-backend-test1\server\config\route-config.js, function=Object.routeConfig.init, line=8, method=init, native=false, column=17, file=E:\WebstormProjects\app-backend-test1\server\app.js, function=null, line=40, method=null, native=false, column=3, file=E:\WebstormProjects\app-backend-test1\server\app.js, function=null, line=45, method=null, native=false], stack=[E:\WebstormProjects\app-backend-test1\server\controller\LibraryController.js:94, const createList = async (req, res) => {,       ^, , SyntaxError: Identifier 'createList' has already been declared,     at Module._compile (internal/modules/cjs/loader.js:895:18),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\routes\library.js:4:50),     at Module._compile (internal/modules/cjs/loader.js:959:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10),     at Module.load (internal/modules/cjs/loader.js:815:32),     at Function.Module._load (internal/modules/cjs/loader.js:727:14),     at Module.require (internal/modules/cjs/loader.js:852:19),     at require (internal/modules/cjs/helpers.js:74:18),     at Object.routeConfig.init (E:\WebstormProjects\app-backend-test1\server\config\route-config.js:8:29),     at E:\WebstormProjects\app-backend-test1\server\app.js:40:17,     at Object.<anonymous> (E:\WebstormProjects\app-backend-test1\server\app.js:45:3)]
+2020-01-14T12:49:49.309Z - info: GET /api/library/createList 404 55 - 7.589 ms
+2020-01-14T12:51:31.597Z - info: GET /api/library/findSone   -  ms
+2020-01-14T12:53:06.682Z - info: GET /api/library/createSong   -  ms
+2020-01-14T12:54:23.949Z - info: GET /api/library/findSone 200  - 882.295 ms
+2020-01-14T12:56:26.572Z - info: POST /api/library/findSone 200  - 98.220 ms
+2020-01-14T13:02:15.279Z - info: OPTIONS /api/library/list 200 4 - 0.843 ms
+2020-01-14T13:02:15.697Z - info: POST /api/library/list 200  - 401.413 ms
+2020-01-14T13:03:40.841Z - info: OPTIONS /api/library/findSone 200 4 - 0.387 ms
+2020-01-14T13:03:41.154Z - info: POST /api/library/findSone 200  - 233.287 ms
+2020-01-14T13:03:44.482Z - info: POST /api/library/findSone 200  - 170.251 ms
+2020-01-14T13:04:24.035Z - info: OPTIONS /api/library/findSone 200 4 - 0.832 ms
+2020-01-14T13:04:24.049Z - info: POST /api/library/findSone 200  - 7.644 ms
+2020-01-14T13:04:58.760Z - info: OPTIONS /api/library/findSone 200 4 - 0.287 ms
+2020-01-14T13:04:58.836Z - info: POST /api/library/findSone 200  - 9.920 ms
+2020-01-14T13:05:41.606Z - info: OPTIONS /api/library/findSone 200 4 - 0.295 ms
+2020-01-14T13:05:41.626Z - info: POST /api/library/findSone 200  - 7.508 ms
+2020-01-14T13:06:17.959Z - info: OPTIONS /api/library/findSone 200 4 - 0.443 ms
+2020-01-14T13:06:17.980Z - info: POST /api/library/findSone 200  - 10.537 ms
+2020-01-14T13:06:19.272Z - info: POST /api/library/findSone 200  - 10.108 ms
+2020-01-14T13:06:25.503Z - info: OPTIONS /api/library/findSone 200 4 - 0.417 ms
+2020-01-14T13:06:25.525Z - info: POST /api/library/findSone 200  - 14.864 ms
+2020-01-14T13:06:29.074Z - info: POST /api/library/findSone 200  - 9.661 ms
+2020-01-14T13:06:36.004Z - info: OPTIONS /api/library/findSone 200 4 - 0.318 ms
+2020-01-14T13:06:36.020Z - info: POST /api/library/findSone 200  - 10.143 ms
+2020-01-14T13:06:37.909Z - info: POST /api/library/findSone 200  - 9.894 ms
+2020-01-14T13:07:32.798Z - info: OPTIONS /api/library/findSone 200 4 - 0.269 ms
+2020-01-14T13:07:33.129Z - info: POST /api/library/findSone 200  - 232.417 ms
+2020-01-14T13:07:47.252Z - info: OPTIONS /api/library/findSone 200 4 - 1.448 ms
+2020-01-14T13:07:47.282Z - info: POST /api/library/findSone 200  - 21.032 ms
+2020-01-14T13:07:48.542Z - info: POST /api/library/findSone 200  - 12.377 ms
+2020-01-14T13:07:49.562Z - info: POST /api/library/findSone 200  - 6.645 ms
+2020-01-14T13:07:50.698Z - info: POST /api/library/findSone 200 40 - 6.519 ms
+2020-01-14T13:08:34.824Z - info: OPTIONS /api/library/findSone 200 4 - 0.347 ms
+2020-01-14T13:08:34.915Z - info: POST /api/library/findSone 200  - 11.555 ms
+2020-01-14T13:08:35.858Z - info: POST /api/library/findSone 200  - 4.580 ms
+2020-01-14T13:08:36.601Z - info: POST /api/library/findSone 200  - 4.199 ms
+2020-01-14T13:08:37.155Z - info: POST /api/library/findSone 200 40 - 4.301 ms
+2020-01-14T13:08:37.616Z - info: POST /api/library/findSone 200  - 3.676 ms
+2020-01-14T13:08:37.893Z - info: POST /api/library/findSone 200  - 12.205 ms
+2020-01-14T13:08:38.725Z - info: POST /api/library/findSone 200 40 - 5.174 ms
+2020-01-14T13:08:39.718Z - info: POST /api/library/findSone 200  - 4.211 ms
+2020-01-14T13:08:40.249Z - info: OPTIONS /api/library/findSone 200 4 - 0.570 ms
+2020-01-14T13:08:40.267Z - info: POST /api/library/findSone 200  - 9.509 ms
+2020-01-14T13:08:40.986Z - info: POST /api/library/findSone 200  - 15.105 ms
+2020-01-14T13:09:20.935Z - info: OPTIONS /api/library/findSone 200 4 - 0.436 ms
+2020-01-14T13:09:20.955Z - info: POST /api/library/findSone 200  - 10.036 ms
+2020-01-14T13:09:21.521Z - info: POST /api/library/findSone 200  - 200.093 ms
+2020-01-14T13:09:23.487Z - info: POST /api/library/findSone 200  - 4.326 ms
+2020-01-14T13:09:23.710Z - info: POST /api/library/findSone 200  - 80.840 ms
+2020-01-14T13:09:23.825Z - info: POST /api/library/findSone 200  - 156.501 ms
+2020-01-14T13:09:26.256Z - info: OPTIONS /api/library/findSone 200 4 - 0.561 ms
+2020-01-14T13:09:26.263Z - info: OPTIONS /api/library/findSone 200 4 - 0.278 ms
+2020-01-14T13:09:26.698Z - info: POST /api/library/findSone 200  - 166.580 ms
+2020-01-14T13:09:26.707Z - info: POST /api/library/findSone 200  - 222.368 ms
+2020-01-14T13:09:27.258Z - info: POST /api/library/findSone 200  - 5.549 ms
+2020-01-14T13:09:30.513Z - info: POST /api/library/findSone 200  - 6.959 ms
+2020-01-14T13:09:31.091Z - info: POST /api/library/findSone 200  - 145.518 ms
+2020-01-14T13:09:38.877Z - info: OPTIONS /api/library/findSone 200 4 - 0.888 ms
+2020-01-14T13:09:38.915Z - info: POST /api/library/findSone 200  - 6.734 ms
+2020-01-14T13:10:34.010Z - info: OPTIONS /api/library/findSone 200 4 - 0.553 ms
+2020-01-14T13:10:34.048Z - info: POST /api/library/findSone 200  - 17.719 ms
+2020-01-14T13:10:39.772Z - info: OPTIONS /api/library/findSone 200 4 - 0.287 ms
+2020-01-14T13:10:39.793Z - info: POST /api/library/findSone 200  - 11.189 ms
+2020-01-14T13:10:41.282Z - info: POST /api/library/findSone 200  - 11.626 ms
+2020-01-14T13:10:42.092Z - info: POST /api/library/findSone 200  - 11.556 ms
+2020-01-14T13:10:43.217Z - info: POST /api/library/findSone 200  - 4.651 ms
+2020-01-14T13:10:44.084Z - info: POST /api/library/findSone 200  - 10.278 ms
+2020-01-14T13:10:46.226Z - info: OPTIONS /api/library/findSone 200 4 - 0.444 ms
+2020-01-14T13:10:46.263Z - info: POST /api/library/findSone 200  - 9.055 ms
+2020-01-14T13:10:53.683Z - info: OPTIONS /api/library/findSone 200 4 - 0.235 ms
+2020-01-14T13:10:53.705Z - info: POST /api/library/findSone 200  - 13.101 ms
+2020-01-14T13:10:54.644Z - info: POST /api/library/findSone 200  - 11.209 ms
+2020-01-14T13:11:23.831Z - info: OPTIONS /api/library/findSone 200 4 - 0.301 ms
+2020-01-14T13:11:23.855Z - info: POST /api/library/findSone 200  - 11.326 ms
+2020-01-14T13:12:31.314Z - info: OPTIONS /api/library/findSone 200 4 - 0.221 ms
+2020-01-14T13:12:31.329Z - info: POST /api/library/findSone 200  - 9.335 ms
+2020-01-14T13:13:14.508Z - info: OPTIONS /api/library/findSone 200 4 - 0.372 ms
+2020-01-14T13:13:14.532Z - info: POST /api/library/findSone 200  - 10.170 ms
+2020-01-14T13:14:42.220Z - info: OPTIONS /api/library/findSone 200 4 - 0.474 ms
+2020-01-14T13:14:42.236Z - info: POST /api/library/findSone 200  - 9.707 ms
+2020-01-14T13:14:45.934Z - info: POST /api/library/findSone 200  - 9.595 ms
+2020-01-14T13:15:09.741Z - info: OPTIONS /api/library/findSone 200 4 - 1.372 ms
+2020-01-14T13:15:09.775Z - info: POST /api/library/findSone 200  - 8.484 ms
+2020-01-14T13:16:00.517Z - info: OPTIONS /api/library/findSone 200 4 - 0.287 ms
+2020-01-14T13:16:00.564Z - info: POST /api/library/findSone 200  - 11.042 ms
+2020-01-14T13:16:04.254Z - info: POST /api/library/findSone 200  - 11.863 ms
+2020-01-14T13:17:08.420Z - info: OPTIONS /api/library/findSone 200 4 - 0.256 ms
+2020-01-14T13:17:08.445Z - info: POST /api/library/findSone 200  - 8.627 ms
+2020-01-14T13:17:11.080Z - info: POST /api/library/findSone 200  - 10.420 ms
+2020-01-14T13:17:20.967Z - info: OPTIONS /api/library/findSone 200 4 - 0.254 ms
+2020-01-14T13:17:20.982Z - info: POST /api/library/findSone 200  - 9.439 ms
+2020-01-14T13:17:26.006Z - info: OPTIONS /api/library/findSone 200 4 - 0.240 ms
+2020-01-14T13:17:26.019Z - info: POST /api/library/findSone 200  - 9.267 ms
+2020-01-14T13:20:22.284Z - info: OPTIONS /api/library/findSone 200 4 - 0.273 ms
+2020-01-14T13:20:22.307Z - info: POST /api/library/findSone 200  - 11.788 ms
+2020-01-14T13:20:26.798Z - info: POST /api/library/findSone 200  - 9.913 ms
+2020-01-14T13:20:31.283Z - info: OPTIONS /api/library/findSone 200 4 - 0.681 ms
+2020-01-14T13:20:31.302Z - info: POST /api/library/findSone 200  - 9.279 ms
+2020-01-14T13:20:34.377Z - info: POST /api/library/findSone 200  - 12.830 ms
+2020-01-14T13:21:49.749Z - info: OPTIONS /api/library/list 200 4 - 0.241 ms
+2020-01-14T13:21:49.847Z - info: POST /api/library/list 200  - 87.954 ms
+2020-01-14T13:22:35.241Z - info: OPTIONS /api/library/list 200 4 - 0.250 ms
+2020-01-14T13:22:35.407Z - info: POST /api/library/list 200  - 124.676 ms
+2020-01-14T13:23:07.419Z - info: OPTIONS /api/library/list 200 4 - 0.271 ms
+2020-01-14T13:23:07.532Z - info: POST /api/library/list 200  - 110.329 ms
+2020-01-14T13:23:11.792Z - info: OPTIONS /api/library/findSone 200 4 - 0.275 ms
+2020-01-14T13:23:11.848Z - info: POST /api/library/findSone 200  - 9.013 ms
+2020-01-14T13:23:14.575Z - info: OPTIONS /api/library/list 200 4 - 0.575 ms
+2020-01-14T13:23:14.709Z - info: POST /api/library/list 200  - 129.493 ms
+2020-01-14T13:23:28.672Z - info: OPTIONS /api/library/findSone 200 4 - 0.449 ms
+2020-01-14T13:23:28.696Z - info: POST /api/library/findSone 200  - 9.558 ms
+2020-01-14T13:23:30.085Z - info: POST /api/library/findSone 200  - 10.138 ms
+2020-01-14T13:23:32.585Z - info: POST /api/library/findSone 200  - 19.807 ms
+2020-01-14T13:23:34.728Z - info: OPTIONS /api/library/findSone 200 4 - 0.743 ms
+2020-01-14T13:23:34.756Z - info: POST /api/library/findSone 200  - 8.829 ms
+2020-01-14T13:23:35.532Z - info: POST /api/library/findSone 200  - 20.329 ms
+2020-01-14T13:23:37.288Z - info: POST /api/library/findSone 200  - 15.778 ms
+2020-01-14T13:23:38.466Z - info: POST /api/library/findSone 200  - 5.320 ms
+2020-01-14T13:23:42.307Z - info: OPTIONS /api/library/findSone 200 4 - 0.240 ms
+2020-01-14T13:23:42.317Z - info: POST /api/library/findSone 200  - 6.210 ms
+2020-01-14T13:23:46.074Z - info: POST /api/library/findSone 200  - 8.762 ms
+2020-01-14T13:23:51.284Z - info: OPTIONS /api/library/list 200 4 - 0.388 ms
+2020-01-14T13:23:51.435Z - info: POST /api/library/list 200  - 140.909 ms
+2020-01-14T13:26:04.922Z - info: OPTIONS /api/library/list 200 4 - 3.093 ms
+2020-01-14T13:26:05.166Z - info: POST /api/library/list 200  - 206.514 ms
+2020-01-14T13:26:08.708Z - info: OPTIONS /api/library/findSone 200 4 - 0.401 ms
+2020-01-14T13:26:08.748Z - info: POST /api/library/findSone 200  - 18.395 ms
+2020-01-14T13:26:09.815Z - info: POST /api/library/findSone 200  - 10.928 ms
+2020-01-14T13:26:11.420Z - info: OPTIONS /api/library/list 200 4 - 0.458 ms
+2020-01-14T13:26:11.586Z - info: POST /api/library/list 200  - 157.321 ms
+2020-01-14T13:26:17.743Z - info: OPTIONS /api/library/findSone 200 4 - 0.269 ms
+2020-01-14T13:26:17.771Z - info: POST /api/library/findSone 200  - 10.626 ms
+2020-01-14T13:26:19.560Z - info: POST /api/library/findSone 200  - 3.990 ms
+2020-01-14T13:26:21.082Z - info: OPTIONS /api/library/list 200 4 - 0.356 ms
+2020-01-14T13:26:21.276Z - info: POST /api/library/list 200  - 172.124 ms
+2020-01-14T13:26:31.997Z - info: OPTIONS /api/library/findSone 200 4 - 0.599 ms
+2020-01-14T13:26:32.021Z - info: POST /api/library/findSone 200  - 15.279 ms
+2020-01-14T13:26:36.617Z - info: OPTIONS /api/library/list 200 4 - 0.311 ms
+2020-01-14T13:26:36.786Z - info: POST /api/library/list 200  - 165.162 ms
+2020-01-14T13:26:45.057Z - info: OPTIONS /api/library/findSone 200 4 - 0.398 ms
+2020-01-14T13:26:45.082Z - info: POST /api/library/findSone 200  - 10.891 ms
+2020-01-14T13:26:54.846Z - info: OPTIONS /api/library/list 200 4 - 0.430 ms
+2020-01-14T13:26:55.010Z - info: POST /api/library/list 200  - 155.475 ms

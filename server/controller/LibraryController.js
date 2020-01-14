@@ -1,5 +1,5 @@
 const Logger = require("../lib/Logger");
-const {findAllLibrary, getTotal, createLibrary} = require("../model/LibraryModel");
+const {findAllLibrary, getTotal, createLibrary, createSinger, findSinger} = require("../model/LibraryModel");
 const {findLibrary} = require("../model/LibraryModel");
 const fs = require('fs')
 const path = require("path");
@@ -7,17 +7,16 @@ const xlsx = require('node-xlsx')
 
 //查询（分页）
 const getAll = async (req, res) => {
-    let {size, page, ...params} = req.body
-    if (!size) size = 10
-    if (!page) page = 1
-    if (!params.query) params.query = {}
+     let params = {...req.body}
+    // let {size, page, ...params} = req.body
+    // if (!size) size = 10
+    // if (!page) page = 1
+    // if (!params.query) params.query = {}
     try {
-        const results = await findAllLibrary(params.query, page, size);
-        const total = await getTotal(params.query)
+        //const results = await findAllLibrary(params.query, page, size);
+        const results = await findLibrary(params);
+        //const total = await getTotal(params.query)
         return res.status(200).json({
-            page,
-            size,
-            total: Number(total[0].count),
             data: results,
             message: "success",
             code: 0
@@ -63,14 +62,48 @@ const create = async (req, res) => {
             }
         }
     }
+}
+
+//导入歌手
+const createSone = async (req, res) => {
+    let files = fs.readdirSync(path.join(__dirname, `../../song`))
+    for (let n = 0; 0 < files.length - 1; n++) {
+        let obj = xlsx.parse(path.join(__dirname, `../../song/${files[n]}`));
+        let list = obj[0].data
+        let type = obj[0].name
+        for (let i = 1; i < list.length; i++) {
+            if (list[i].length > 0) {
+                let result = await createSinger({
+                    name: list[i][0],
+                    sex: null,
+                    age: null,
+                    status: null,
+                    information: type,
+                    create_id: null,
+                })
+                if (result) {
+                    console.log(n + '---' + i)
+                }
+            }
+        }
+    }
+}
+
+//歌手列表
+const findSone = async (req, res) => {
+    let params = {...req.body}
+    let data = await findSinger(params)
     return res.status(200).json({
-        code: 0,
-        message: '导入成功'
+        data: data,
+        message: "success",
+        code: 0
     });
 }
 
 
 module.exports = {
     getAll,
-    create
+    create,
+    createSone,
+    findSone
 };

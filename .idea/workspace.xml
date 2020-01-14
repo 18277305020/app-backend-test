@@ -5,6 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controller/LibraryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/LibraryController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/logs/access-2020-01-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/logs/access-2020-01-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/logs/error-2020-01-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/logs/error-2020-01-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/logs/normal-2020-01-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/logs/normal-2020-01-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/logs/warn-2020-01-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/logs/warn-2020-01-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/model/LibraryModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/model/LibraryModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/library.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/library.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kaleidoscope-pc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,7 +99,9 @@
       <workItem from="1578968119589" duration="6561000" />
       <workItem from="1578981731630" duration="4737000" />
       <workItem from="1578987511894" duration="344000" />
-      <workItem from="1578990603690" duration="423000" />
+      <workItem from="1578990603690" duration="1645000" />
+      <workItem from="1578994232209" duration="610000" />
+      <workItem from="1579003497771" duration="4686000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1577951327910</created>
@@ -236,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578985914941</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="导入类型">
+      <created>1578991096476</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578991096476</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,21 +266,26 @@
     <MESSAGE value="添加排序" />
     <MESSAGE value="新增系部组织" />
     <MESSAGE value="批量导入曲库" />
-    <option name="LAST_COMMIT_MESSAGE" value="批量导入曲库" />
+    <MESSAGE value="导入类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="导入类型" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1578985913959">
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1578991095257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578985913959" />
-    <state x="911" y="275" key="FileChooserDialogImpl" timestamp="1578535182792">
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578991095257" />
+    <state x="276" y="127" key="DiffContextDialog" timestamp="1578991078529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="911" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578535182792" />
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578985916855">
+    <state x="276" y="127" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578991078529" />
+    <state x="911" y="275" key="FileChooserDialogImpl" timestamp="1579006654534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578985916855" />
+    <state x="911" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579006654534" />
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1578991098710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578991098710" />
     <state x="625" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578016148226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
