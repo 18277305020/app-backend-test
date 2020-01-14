@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06e18bb1-16a7-43fc-8fa8-827ce53be23c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controller/LibraryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/LibraryController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/DBUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/DBUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/logs/access-2020-01-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/logs/access-2020-01-14.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/model/LibraryModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/model/LibraryModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/library.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/library.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +94,7 @@
       <workItem from="1578987511894" duration="344000" />
       <workItem from="1578990603690" duration="1645000" />
       <workItem from="1578994232209" duration="610000" />
-      <workItem from="1579003497771" duration="5920000" />
+      <workItem from="1579003497771" duration="6724000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1577951327910</created>
@@ -255,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579008547827</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="更新bug">
+      <created>1579009940742</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1579009940742</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,13 +275,14 @@
     <MESSAGE value="批量导入曲库" />
     <MESSAGE value="导入类型" />
     <MESSAGE value="导入歌手" />
-    <option name="LAST_COMMIT_MESSAGE" value="导入歌手" />
+    <MESSAGE value="更新bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新bug" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1579008546362">
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1579009939632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579008546362" />
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579009939632" />
     <state x="276" y="127" key="DiffContextDialog" timestamp="1578991078529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -288,10 +291,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="911" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579009315653" />
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1579008550094">
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1579009943591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579008550094" />
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579009943591" />
     <state x="625" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578016148226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
