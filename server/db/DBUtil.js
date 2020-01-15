@@ -3,9 +3,9 @@ const knex = require("./connection");
 //TODO 查询全部(分页)
 const all = (table, params, page, size) => {
     return knex(table).where(params).limit(size).offset((page - 1) * size)
-        // .orderBy([
-        //     {column: 'family'}
-        // ])
+    // .orderBy([
+    //     {column: 'family'}
+    // ])
 }
 
 //TODO 查询全部
@@ -41,6 +41,21 @@ function decrease(table, condition, key) {
     return knex(table).where(condition).decrement(key, 1)
 }
 
+//TODO 查询曲库排序(分页)
+const LibraryAll = (table, params, page, size) => {
+    return knex(table).where(params).limit(size).offset((page - 1) * size)
+        .orderBy([
+            {column: 'select', order: 'desc'}
+        ])
+}
+
+//TODO 查询全部(过滤)
+const LibraryFindSelect = (table) => {
+    return knex(table).where('select', '>', 0).orderBy([
+        {column: 'select', order: 'desc'}
+    ])
+}
+
 
 module.exports = {
     all,
@@ -50,5 +65,7 @@ module.exports = {
     edit,
     total,
     increase,
-    decrease
+    decrease,
+    LibraryAll,
+    LibraryFindSelect
 }

@@ -1,9 +1,27 @@
 const Logger = require("../lib/Logger");
 const {findAllLibrary, getTotal, getSingerTotal, createLibrary, createSinger, findSinger, addIncrease, findSingerAll} = require("../model/LibraryModel");
-const {findLibrary} = require("../model/LibraryModel");
+const {findLibrary, getLibraryFindSelect} = require("../model/LibraryModel");
 const fs = require('fs')
 const path = require("path");
 const xlsx = require('node-xlsx')
+
+//过滤
+const getLibraryFindSelectAll = async (req, res) => {
+    try {
+        const results = await getLibraryFindSelect();
+        return res.status(200).json({
+            data: results,
+            message: "success",
+            code: 0
+        });
+    } catch (e) {
+        Logger.error("GetAllThanksgiving error", e.message);
+        return res.status(500).json({
+            message: 'Internal server error.',
+            code: 1
+        });
+    }
+}
 
 //查询
 const getAll = async (req, res) => {
@@ -199,5 +217,6 @@ module.exports = {
     add,
     list,
     findSoneAll,
-    createSingerAdmin
+    createSingerAdmin,
+    getLibraryFindSelectAll
 };

@@ -1,9 +1,9 @@
 const table = "library";
-const {all, find, del, edit, create, total, increase} = require('../db/DBUtil');
+const {all, find, del, edit, create, total, increase, LibraryAll, LibraryFindSelect} = require('../db/DBUtil');
 
 //TODO 查询(分页)
 const findAllLibrary = (params, page, size) => {
-    return all(table, params, page, size);
+    return LibraryAll(table, params, page, size);
 }
 
 //TODO 查询
@@ -56,6 +56,11 @@ const addIncrease = async params => {
     return await increase(table, params, 'select');
 }
 
+//TODO 查询
+const getLibraryFindSelect = _ => {
+    return LibraryFindSelect(table);
+}
+
 
 module.exports = {
     findAllLibrary,
@@ -68,6 +73,7 @@ module.exports = {
     findSinger,
     addIncrease,
     findSingerAll,
-    getSingerTotal
+    getSingerTotal,
+    getLibraryFindSelect
 };
 
