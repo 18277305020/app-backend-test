@@ -1,11 +1,11 @@
 const Logger = require("../lib/Logger");
-const {findAllLibrary, getTotal, createLibrary, createSinger, findSinger, addIncrease} = require("../model/LibraryModel");
+const {findAllLibrary, getTotal, getSingerTotal, createLibrary, createSinger, findSinger, addIncrease, findSingerAll} = require("../model/LibraryModel");
 const {findLibrary} = require("../model/LibraryModel");
 const fs = require('fs')
 const path = require("path");
 const xlsx = require('node-xlsx')
 
-//查询（分页）
+//查询
 const getAll = async (req, res) => {
     let params = {...req.body}
     // let {size, page, ...params} = req.body
@@ -17,6 +17,32 @@ const getAll = async (req, res) => {
         const results = await findLibrary(params);
         //const total = await getTotal(params.query)
         return res.status(200).json({
+            data: results,
+            message: "success",
+            code: 0
+        });
+    } catch (e) {
+        Logger.error("GetAllThanksgiving error", e.message);
+        return res.status(500).json({
+            message: 'Internal server error.',
+            code: 1
+        });
+    }
+}
+
+//查询（分页）
+const list = async (req, res) => {
+    let {size, page, ...params} = req.body
+    if (!size) size = 10
+    if (!page) page = 1
+    if (!params.query) params.query = {}
+    try {
+        const results = await findAllLibrary(params.query, page, size);
+        const total = await getTotal(params.query)
+        return res.status(200).json({
+            total: Number(total[0].count),
+            page,
+            size,
             data: results,
             message: "success",
             code: 0
@@ -100,6 +126,59 @@ const findSone = async (req, res) => {
     });
 }
 
+//查询歌手（分页）
+const findSoneAll = async (req, res) => {
+    let {size, page, ...params} = req.body
+    if (!size) size = 10
+    if (!page) page = 1
+    if (!params.query) params.query = {}
+    try {
+        const results = await findSingerAll(params.query, page, size);
+        const total = await getSingerTotal(params.query)
+        return res.status(200).json({
+            total: Number(total[0].count),
+            page,
+            size,
+            data: results,
+            message: "success",
+            code: 0
+        });
+    } catch (e) {
+        Logger.error("GetAllThanksgiving error", e.message);
+        return res.status(500).json({
+            message: 'Internal server error.',
+            code: 1
+        });
+    }
+}
+
+//添加歌手（admin）
+const createSingerAdmin = async (req, res) => {
+    const params = {...req.body}
+    try {
+        const result = await findSinger({name: params.name});
+        if (result.length > 0) {
+            return res.status(200).json({
+                message: '该歌手已存在',
+                code: 1
+            });
+        }
+        const data = await createSinger(params);
+        return res.status(200).json({
+            data: {
+                data
+            },
+            code: 0,
+            message: "添加成功"
+        })
+    } catch (e) {
+        Logger.error('register', e);
+        return res.status(500).json({
+            message: 'Internal server error.'
+        });
+    }
+}
+
 //添加选择
 const add = async (req, res) => {
     let params = {...req.body}
@@ -117,5 +196,8 @@ module.exports = {
     create,
     createSone,
     findSone,
-    add
+    add,
+    list,
+    findSoneAll,
+    createSingerAdmin
 };

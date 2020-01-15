@@ -41,9 +41,19 @@ const findSinger = async params => {
     return await find('singer', params);
 }
 
+//TODO 歌手列表(分页)
+const findSingerAll = async (params, page, size) => {
+    return await all('singer', params, page, size);
+}
+
+//TODO 歌手数量
+const getSingerTotal = async params => {
+    return await total('singer', params);
+}
+
 //增加
 const addIncrease = async params => {
-    return await increase(table, params,'select');
+    return await increase(table, params, 'select');
 }
 
 
@@ -56,6 +66,8 @@ module.exports = {
     getTotal,
     createSinger,
     findSinger,
-    addIncrease
+    addIncrease,
+    findSingerAll,
+    getSingerTotal
 };
 
