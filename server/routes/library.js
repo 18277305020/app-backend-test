@@ -1,12 +1,14 @@
 const express = require("express");
 const router = express.Router();
 
-const {getAll, create, createSone, findSone, add, list, findSoneAll, createSingerAdmin, getLibraryFindSelectAll} = require('../controller/LibraryController');
+const {getAll, create, createSone, findSone, add, list, findSoneAll, createSingerAdmin, getLibraryFindSelectAll, getLibraryFindSelectAllExcel} = require('../controller/LibraryController');
 
 //曲库
 router.post("/list", getAll)
 
 router.get("/getLibraryFindSelectAll", getLibraryFindSelectAll)
+
+router.get("/getLibraryFindSelectAllExcel", getLibraryFindSelectAllExcel)
 
 router.post("/listMusic", list)
 

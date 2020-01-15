@@ -4,8 +4,6 @@
     <list default="true" id="06e18bb1-16a7-43fc-8fa8-827ce53be23c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controller/LibraryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/LibraryController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/DBUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/DBUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/model/LibraryModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/model/LibraryModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/library.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/library.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../management-wanhuatong1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LibraryFile" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,15 +41,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WebstormProjects\app-backend-test1\server\db\migrations" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WebstormProjects\app-backend-test1" />
       <recent name="E:\WebstormProjects\app-backend-test1\LibraryFile" />
+      <recent name="E:\WebstormProjects\app-backend-test1" />
       <recent name="E:\WebstormProjects\app-backend-test1\liebiao" />
       <recent name="E:\WebstormProjects\app-backend-test1\server\controller" />
       <recent name="E:\WebstormProjects\app-backend-test1\server\model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\app-backend-test1\server\db\migrations" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -102,7 +100,8 @@
       <workItem from="1579051989492" duration="216000" />
       <workItem from="1579053308572" duration="4035000" />
       <workItem from="1579087986578" duration="485000" />
-      <workItem from="1579095166150" duration="1815000" />
+      <workItem from="1579095166150" duration="1974000" />
+      <workItem from="1579098007195" duration="1867000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1577951327910</created>
@@ -279,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579088016188</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="乐库筛选排序">
+      <created>1579097006428</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1579097006429</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,13 +306,14 @@
     <MESSAGE value="更新bug" />
     <MESSAGE value="删除 .nuxt" />
     <MESSAGE value="添加乐库后台接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加乐库后台接口" />
+    <MESSAGE value="乐库筛选排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="乐库筛选排序" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1579088015189">
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2" timestamp="1579097005570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579088015189" />
+    <state x="650" y="86" width="804" height="951" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579097005570" />
     <state x="276" y="127" key="DiffContextDialog" timestamp="1578991078529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -315,10 +322,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="911" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579095431250" />
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1579088021840">
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2" timestamp="1579097007757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579088021840" />
+    <state x="723" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579097007757" />
     <state x="625" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578016148226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

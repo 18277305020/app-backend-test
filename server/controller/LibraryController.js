@@ -5,7 +5,27 @@ const fs = require('fs')
 const path = require("path");
 const xlsx = require('node-xlsx')
 
-//过滤
+//过滤（导出）生成表格
+const getLibraryFindSelectAllExcel = async (req, res) => {
+    const results = await getLibraryFindSelect();
+    let datas = []
+    let title = ['音乐编号', '音乐名称', '歌手', '所属分类', '选择次数']
+    datas.push(title)
+
+    for (let n = 0; n < results.length; n++) {
+        let key = [`${results[n].sid}`,`${results[n].name}`,`${results[n].writer}`,`${results[n].type}`,`${results[n].select}`]
+        datas.push(key)
+    }
+    let buffer = xlsx.build([
+        {
+            name: '已选择歌曲列表',
+            data: datas
+        }
+    ]);
+    fs.writeFileSync(path.join(__dirname, '../../test/test.xlsx'), buffer, {'flag': 'w'});
+}
+
+//过滤（查询）
 const getLibraryFindSelectAll = async (req, res) => {
     try {
         const results = await getLibraryFindSelect();
@@ -218,5 +238,6 @@ module.exports = {
     list,
     findSoneAll,
     createSingerAdmin,
-    getLibraryFindSelectAll
+    getLibraryFindSelectAll,
+    getLibraryFindSelectAllExcel
 };
